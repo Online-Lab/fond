@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('fond')
-  .controller('NavbarCtrl', function ($scope) {
+  .controller('FooterCtrl', function ($scope) {
     $scope.date = new Date();
   });
