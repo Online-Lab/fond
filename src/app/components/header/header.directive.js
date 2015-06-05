@@ -1,9 +1,6 @@
 'use strict';
 
-angular.module('fond')
-  .controller('Header', function () {
-    // $scope.date = new Date();
-  })
+angular.module('header', [])
 
   .directive('header', function (){
     return{

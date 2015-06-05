@@ -42,9 +42,11 @@ li.for-starblind
     border-radius 5px
     overflow hidden
 .main-menu
+    transition 0.4s 
     &>li
         display inline-block
-        &.active
+        &.active,
+        &:hover
             a
                 border-top 5px solid #2d2f31
                 background #4e737c
