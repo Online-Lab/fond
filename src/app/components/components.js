@@ -2,5 +2,6 @@
 angular.module('components', [
     'header',
     'aside',
-    'footer'
-]) ;
+    'footer',
+    'slickSlider'
+]);
