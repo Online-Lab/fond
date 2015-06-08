@@ -3,12 +3,12 @@
     <div class="map-project"></div>
 </a>
 
-<div class="block">
+<div class="block no-bor">
     <p class="aside-header">Курс валют</p>
     <div class="exchahge-data">
         <div class="euro">
             <span class = "count">1 EUR</span>
-            <span ng-bind="exchangeData[1].Rate"></span>
+            <span ng-bind="exchangeData[1].Rate" class = "exchange"></span>
             <span 
                 class="spread" 
                 ng-bind = "spreadEuro"
@@ -16,11 +16,47 @@
         </div>
         <div class="usa">
             <span class = "count">1 USA</span>
-            <span ng-bind="exchangeData[0].Rate"></span>
+            <span ng-bind="exchangeData[0].Rate" class = "exchange"></span>
             <span 
                 class="spread" 
                 ng-bind = "spreadEuro"
                 ng-class = "{'red': spreadEuro<0, 'green': spreadEuro>0}"></span>
         </div>
     </div>
+</div>
+
+<div class="block">
+    <img src="../../../assets/images/raiting.jpg" alt="">
+</div>
+
+<div class="block">
+    <img src="../../../assets/images/econom-reeks.jpg" alt="">
+</div>
+
+<div class="block">
+    <img src="../../../assets/images/credit-garant.jpg" alt="">
+</div>
+
+<div class="block">
+    <img src="../../../assets/images/strategik-init.jpg" alt="">
+</div>
+
+<div class="block">
+    <img src="../../../assets/images/deal-rus.jpg" alt="">
+</div>
+
+<div class="block">
+    <img src="../../../assets/images/obdusmen.jpg" alt="">
+</div>
+
+<div class="block">
+    <img src="../../../assets/images/bank-associate.jpg" alt="">
+</div>
+
+<div class="block no-bor">
+    <img src="../../../assets/images/commitet-tmb.jpg" alt="">
+</div>
+
+<div class="block no-bor">
+    <img src="../../../assets/images/prom-menegment.jpg" alt="">
 </div>

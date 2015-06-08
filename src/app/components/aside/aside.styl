@@ -8,8 +8,14 @@ aside
     min-hight 65px
     width 100%
     display inline-block
-.block .aside-header
-    text-transform none
+.block 
+    margin-bottom 15px
+    box-sizing border-box
+    border 1px solid #888
+    .aside-header
+        text-transform none
+    &.no-bor
+        border 0
 
 .aside-header
     background-color #37455e
@@ -24,3 +30,34 @@ aside
     margin-bottom 80px
     background #fff url(../../assets/images/map.png) center center no-repeat
     display block
+
+
+.euro,
+.usa
+    display block
+    padding 6px 0px 6px 22px
+    font-size 14px
+    margin-left 10px
+    .red
+        color #ff0000
+        &:before
+            content "▼"
+    .green
+        color #18881c
+        &:before
+            content "▼"
+    .red,
+    .green
+        &:before
+            font-size 10px
+            padding-right 2px
+.euro
+    background url(../../assets/images/euro.jpg) 0 center no-repeat
+.usa
+    background url(../../assets/images/usa.jpg) 0 center no-repeat
+
+
+.exchange:after
+    content " руб."
+    padding 0 2px
+    
