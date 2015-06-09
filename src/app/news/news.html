@@ -1,0 +1,24 @@
+<bredcrumbs></bredcrumbs>
+
+<div class="page-title">
+    <h2>Новости</h2>
+    <pagination></pagination>
+</div>
+
+<div class="news-wrap">
+    <div class="news" ng-repeat = "n in news">
+        <time ng-bind = "n.time">6 мая 16:00</time>
+        <figure>
+            <img ng-src = "{{n.img}}" src="" alt="">
+            <figcaption>
+                <p ng-bind = "n.desc"></p>
+                <a href="">Подробнее >></a>
+            </figcaption>
+        </figure>
+    </div>
+</div>
+
+<div class="page-title">
+
+    <pagination></pagination>
+</div>

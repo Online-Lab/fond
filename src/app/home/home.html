@@ -7,3 +7,42 @@
     <h2>Новости</h2>
     <a href="">Все новости</a>
 </div>
+
+<div class="news-wrap">
+    <div class="news" ng-repeat = "n in news">
+        <time ng-bind = "n.time">6 мая 16:00</time>
+        <figure>
+            <img ng-src = "{{n.img}}" src="" alt="">
+            <figcaption>
+                <p ng-bind = "n.desc"></p>
+                <a href="" ui-sref = "news">Подробнее >></a>
+            </figcaption>
+        </figure>
+    </div>
+</div>
+
+<div class="content-title">
+    <h2>Партнеры фонда</h2>
+    <a href="">Показать всех</a>
+</div>
+
+<ul class="partner-list">
+    <li>
+        <a href=""><img src="../../assets/images/sb.png" alt=""></a>
+    </li>
+    <li>
+        <a href=""><img src="../../assets/images/rab.png" alt=""></a>
+    </li>
+    <li>
+        <a href=""><img src="../../assets/images/rsb.png" alt=""></a>
+    </li>
+    <li>
+        <a href=""><img src="../../assets/images/msb.png" alt=""></a>
+    </li>
+    <li>
+        <a href=""><img src="../../assets/images/usb.png" alt=""></a>
+    </li>
+    <li>
+        <a href=""><img src="../../assets/images/psb.png" alt=""></a>
+    </li>
+</ul>

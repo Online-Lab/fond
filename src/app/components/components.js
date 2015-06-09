@@ -1,7 +1,10 @@
 'use strict';
+
 angular.module('components', [
     'header',
     'aside',
     'footer',
-    'slickSlider'
+    'slickSlider',
+    'pagination',
+    'bredcrumbs'
 ]);

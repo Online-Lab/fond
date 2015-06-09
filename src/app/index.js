@@ -7,7 +7,9 @@ angular.module('fond', ['ngAnimate',
 	'ngResource', 
 	'ui.router', 
 	'ngMaterial',
-	'fond.home',
+  'fond.home',
+  'fond.news',
+	'fond.reporting',
 	'components'
 ])
 
@@ -27,6 +29,11 @@ angular.module('fond', ['ngAnimate',
         controller: 'ReportingCtrl'
       })
 
+      .state('news', {
+        url: '/news',
+        templateUrl: 'app/news/news.html',
+        controller: 'NewsCtrl'
+      })
 
       ;
 
@@ -37,6 +44,6 @@ angular.module('fond', ['ngAnimate',
 
 
 .controller('AppCtrl',  function(){
-
+  
 })
 ;

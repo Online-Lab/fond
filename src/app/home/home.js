@@ -1,10 +1,32 @@
 'use strict';
 
 angular.module('fond.home', [])
+    .config(['$httpProvider', function($httpProvider) {
+        //initialize get if not there
+        if (!$httpProvider.defaults.headers.get) {
+            $httpProvider.defaults.headers.get = {};    
+        }    
 
-  .controller('HomeCtrl', function ($scope) {
-    $scope.example = 'example';
+        // Answer edited to include suggestions from comments
+        // because previous version of code introduced browser-related errors
+
+        //disable IE ajax request caching
+        $httpProvider.defaults.headers.get['If-Modified-Since'] = 'Mon, 26 Jul 1997 05:00:00 GMT';
+        // extra
+        $httpProvider.defaults.headers.get['Cache-Control'] = 'no-cache';
+        $httpProvider.defaults.headers.get['Pragma'] = 'no-cache';
+    }])
+
+
+  .controller('HomeCtrl', function ($scope, $http) {
+
+    $http.get('http://localhost:3000/news')
+        .success(function(data){
+            $scope.news = data;
+            // console.log($scope.news);
+        });
+
+    console.log($scope.news);
   })
-
 
 ;
