@@ -9,6 +9,7 @@ angular.module('fond', ['ngAnimate',
 	'ngMaterial',
   'fond.home',
   'fond.news',
+  'fond.news-page',
 	'fond.reporting',
 	'components'
 ])
@@ -35,6 +36,11 @@ angular.module('fond', ['ngAnimate',
         controller: 'NewsCtrl'
       })
 
+      .state('news-page', {
+        url: '/news-page',
+        templateUrl: 'app/news-page/news-page.html',
+        controller: 'NewsPageCtrl'
+      })
       ;
 
     $urlRouterProvider.otherwise('/');

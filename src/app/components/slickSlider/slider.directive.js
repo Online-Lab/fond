@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 angular.module('slickSlider', [])
 
@@ -11,4 +11,4 @@ angular.module('slickSlider', [])
             });
         }
     };
-})
+});
