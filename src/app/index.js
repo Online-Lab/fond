@@ -70,8 +70,13 @@ angular.module('fond', ['ngAnimate',
 
 
 
+.run(function($rootScope){
+  $rootScope.$on('$stateChangeSuccess', function() {
+     document.body.scrollTop = document.documentElement.scrollTop = 0;
+  });
+})
 
 .controller('AppCtrl',  function(){
-  
+
 })
 ;
