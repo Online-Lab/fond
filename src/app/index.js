@@ -13,7 +13,8 @@ angular.module('fond', ['ngAnimate',
   'fond.reporting',
   'fond.download',
   'fond.application',
-	'fond.ask-question',
+  'fond.ask-question',
+	'fond.contacts',
 	'components'
 ])
 
@@ -63,6 +64,11 @@ angular.module('fond', ['ngAnimate',
         controller: 'AskQuestionCtrl'
       })
 
+      .state('contacts', {
+        url: '/contacts',
+        templateUrl: 'app/contacts/contacts.html',
+        controller: 'ContactsCtrl'
+      })
       ;
 
     $urlRouterProvider.otherwise('/');

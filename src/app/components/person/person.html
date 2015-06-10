@@ -1,0 +1,11 @@
+<figure class = "person">
+    <img ng-src="../../assets/images/{{info.img}}" alt="">
+    <figcaption>
+        <b class = "name" ng-bind = "info.name"></b>
+        <p class = "post" ng-bind = "info.post"></p>
+        <p>Телефон: 
+            <span class = "tel" ng-bind = "info.tel"></span>
+        </p>
+        <a href = "mailto:{{info.email}}" class = "email" ng-bind = "info.email"></a>
+    </figcaption>
+</figure>

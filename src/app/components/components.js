@@ -6,5 +6,6 @@ angular.module('components', [
     'footer',
     'slickSlider',
     'pagination',
-    'bredcrumbs'
+    'bredcrumbs',
+    'person'
 ]);

@@ -7,7 +7,6 @@ angular.module('fond.news', [])
     $http.get('http://localhost:3000/news')
         .success(function(data){
             $scope.news = data;
-            // console.log($scope.news);
         });
   })
 
