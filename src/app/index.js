@@ -11,7 +11,8 @@ angular.module('fond', ['ngAnimate',
   'fond.news',
   'fond.news-page',
   'fond.reporting',
-	'fond.download',
+  'fond.download',
+	'fond.application',
 	'components'
 ])
 
@@ -49,7 +50,11 @@ angular.module('fond', ['ngAnimate',
         controller: 'DownloadCtrl'
       })
 
-
+      .state('application', {
+        url: '/application',
+        templateUrl: 'app/application/application.html',
+        controller: 'ApplicationCtrl'
+      })
       ;
 
     $urlRouterProvider.otherwise('/');
