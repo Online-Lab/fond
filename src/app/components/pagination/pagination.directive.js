@@ -2,7 +2,7 @@
 
 angular.module('pagination', [])
 
-    .directive('pagination', function($http){
+    .directive('pagination', function(){
         return{
             restrict: 'E',
             templateUrl: 'app/components/pagination/pagination.html',

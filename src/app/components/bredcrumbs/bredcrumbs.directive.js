@@ -2,7 +2,7 @@
 
 angular.module('bredcrumbs', [])
 
-    .directive('bredcrumbs', function($http){
+    .directive('bredcrumbs', function(){
         return{
             restrict: 'E',
             templateUrl: 'app/components/bredcrumbs/bredcrumbs.html',
