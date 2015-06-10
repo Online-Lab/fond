@@ -12,7 +12,8 @@ angular.module('fond', ['ngAnimate',
   'fond.news-page',
   'fond.reporting',
   'fond.download',
-	'fond.application',
+  'fond.application',
+	'fond.ask-question',
 	'components'
 ])
 
@@ -55,6 +56,13 @@ angular.module('fond', ['ngAnimate',
         templateUrl: 'app/application/application.html',
         controller: 'ApplicationCtrl'
       })
+
+      .state('ask-question', {
+        url: '/ask-question',
+        templateUrl: 'app/ask-question/ask-question.html',
+        controller: 'AskQuestionCtrl'
+      })
+
       ;
 
     $urlRouterProvider.otherwise('/');
