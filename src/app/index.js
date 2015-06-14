@@ -14,8 +14,9 @@ angular.module('fond', ['ngAnimate',
   'fond.download',
   'fond.application',
   'fond.ask-question',
-	'fond.contacts',
-	'components'
+  'fond.contacts',
+  'fond.projects',
+  'components'
 ])
 
   .config(function ($stateProvider, $urlRouterProvider) {
@@ -68,6 +69,12 @@ angular.module('fond', ['ngAnimate',
         url: '/contacts',
         templateUrl: 'app/contacts/contacts.html',
         controller: 'ContactsCtrl'
+      })
+
+      .state('projects', {
+        url: '/projects',
+        templateUrl: 'app/projects/projects.html',
+        controller: 'ProjectsCtrl'
       })
       ;
 
