@@ -9,8 +9,9 @@
     width 70%
     display inline-block
     height 550px
-    svg
+    object
         width 100%
+        height 100%
     
 .map g:hover 
     path:not(.map_bg)
@@ -28,6 +29,9 @@
         color #4e737c
         &:hover
             font-weight 700
+g.active
+    path
+        fill #debba5
 // .map text
 //     fill transparent
 //     font-size 30px
