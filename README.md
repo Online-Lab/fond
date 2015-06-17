@@ -3,8 +3,8 @@ For starting project:
 for load all dependencies
 
 ```bash
-    $ bower install
-    $ npm install
+$ bower install
+$ npm install
 ```
 
 
