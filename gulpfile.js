@@ -17,6 +17,11 @@ var options = {
   },
   wiredep: {
     directory: 'bower_components'
+  },
+  vendor: {
+    js: [
+      './bower_components/slick.js/slick/slick.min.js'
+    ]
   }
 };
 
