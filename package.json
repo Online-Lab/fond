@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "postinstall": "bower install && node node_modules/gulp/bin/gulp.js"
+    "postinstall": "./node_modules/bower/bin/bower install && node node_modules/gulp/bin/gulp.js"
   },
   "devDependencies": {
     "gulp": "~3.8.10",
@@ -53,7 +53,8 @@
     "uglify-save-license": "~0.4.1",
     "wrench": "~1.5.8",
     "gzippo": "*",
-    "express": "*"
+    "express": "*",
+    "bower": "*"
   },
   "engines": {
     "node": ">=0.10.0"
