@@ -14,7 +14,7 @@ Then, FIRSTLY start JSON Server (if [JSON Server](https://github.com/typicode/js
 $ json-server --watch db.json
 ```
 
-In the SECOND start (gulp)[https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md]
+In the SECOND start [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
 
 ```bash
 $ gulp serve || gulp
