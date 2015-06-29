@@ -22,6 +22,8 @@ angular.module('fond', ['ngAnimate',
   'fond.changes-statutes',
   'fond.changes-regulations',
   'fond.certificate',
+  'fond.doc-form',
+  'fond.advantages',
   'components'
 ])
 
@@ -117,6 +119,18 @@ angular.module('fond', ['ngAnimate',
         url: '/certificate',
         templateUrl: 'app/certificate/certificate.html',
         controller: 'CertificateCtrl'
+      })
+
+      .state('doc-form', {
+        url: '/doc-form',
+        templateUrl: 'app/doc-form/doc-form.html',
+        controller: 'Doc-formCtrl'
+      })
+
+      .state('advantages', {
+        url: '/advantages',
+        templateUrl: 'app/advantages/advantages.html',
+        controller: 'AdvantagesCtrl'
       })
 
       ;

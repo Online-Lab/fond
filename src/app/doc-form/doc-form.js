@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('fond.archive-changes', [])
+angular.module('fond.doc-form', [])
 
-  .controller('Archive-changesCtrl', function ($scope) {
+  .controller('Doc-formCtrl', function ($scope) {
     $scope.example = 'example';
   })
 
