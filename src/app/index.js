@@ -17,6 +17,11 @@ angular.module('fond', ['ngAnimate',
   'fond.contacts',
   'fond.projects',
   'fond.tasks',
+  'fond.regulatory-base',
+  'fond.archive-changes',
+  'fond.changes-statutes',
+  'fond.changes-regulations',
+  'fond.certificate',
   'components'
 ])
 
@@ -83,6 +88,37 @@ angular.module('fond', ['ngAnimate',
         templateUrl: 'app/tasks/tasks.html',
         controller: 'TasksCtrl'
       })
+
+      .state('regulatory-base', {
+        url: '/regulatory-base',
+        templateUrl: 'app/regulatory-base/regulatory-base.html',
+        controller: 'Regulatory-baseCtrl'
+      })
+      
+      .state('archive-changes', {
+        url: '/archive-changes',
+        templateUrl: 'app/archive-changes/archive-changes.html',
+        controller: 'Archive-changesCtrl'
+      })
+
+      .state('changes-statutes', {
+        url: '/changes-statutes',
+        templateUrl: 'app/changes-statutes/changes-statutes.html',
+        controller: 'Changes-statutesCtrl'
+      })
+
+      .state('changes-regulations', {
+        url: '/changes-regulations',
+        templateUrl: 'app/changes-regulations/changes-regulations.html',
+        controller: 'Changes-regulationsCtrl'
+      })
+
+      .state('certificate', {
+        url: '/certificate',
+        templateUrl: 'app/certificate/certificate.html',
+        controller: 'CertificateCtrl'
+      })
+
       ;
 
     $urlRouterProvider.otherwise('/');
