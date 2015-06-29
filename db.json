@@ -84,5 +84,6 @@
       "tel": "63-07-26",
       "email": "ambludov@fsc-tambow.ru"
     }
-  ]
+  ],
+  "browser-sync": []
 }

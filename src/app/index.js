@@ -16,6 +16,7 @@ angular.module('fond', ['ngAnimate',
   'fond.ask-question',
   'fond.contacts',
   'fond.projects',
+  'fond.tasks',
   'components'
 ])
 
@@ -75,6 +76,12 @@ angular.module('fond', ['ngAnimate',
         url: '/projects',
         templateUrl: 'app/projects/projects.html',
         controller: 'ProjectsCtrl'
+      })
+
+      .state('tasks', {
+        url: '/tasks',
+        templateUrl: 'app/tasks/tasks.html',
+        controller: 'TasksCtrl'
       })
       ;
 
