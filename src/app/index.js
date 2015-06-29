@@ -24,6 +24,12 @@ angular.module('fond', ['ngAnimate',
   'fond.certificate',
   'fond.doc-form',
   'fond.advantages',
+  'fond.guarantee',
+  'fond.obtaining-loan',
+  'fond.support-buisness',
+  'fond.bank-advantages',
+  'fond.bank-partnership',
+  'fond.limits-guarantees',
   'components'
 ])
 
@@ -131,6 +137,42 @@ angular.module('fond', ['ngAnimate',
         url: '/advantages',
         templateUrl: 'app/advantages/advantages.html',
         controller: 'AdvantagesCtrl'
+      })
+
+      .state('guarantee', {
+        url: '/guarantee',
+        templateUrl: 'app/guarantee/guarantee.html',
+        controller: 'GuaranteeCtrl'
+      })
+
+      .state('obtaining-loan', {
+        url: '/obtaining-loan',
+        templateUrl: 'app/obtaining-loan/obtaining-loan.html',
+        controller: 'Obtaining-loanCtrl'
+      })
+
+      .state('support-buisness', {
+        url: '/support-buisness',
+        templateUrl: 'app/support-buisness/support-buisness.html',
+        controller: 'Support-buisnessCtrl'
+      })
+
+      .state('bank-advantages', {
+        url: '/bank-advantages',
+        templateUrl: 'app/bank-advantages/bank-advantages.html',
+        controller: 'Bank-advantagesCtrl'
+      })
+
+      .state('bank-partnership', {
+        url: '/bank-partnership',
+        templateUrl: 'app/bank-partnership/bank-partnership.html',
+        controller: 'bank-partnershipCtrl'
+      })
+
+      .state('limits-guarantees', {
+        url: '/limits-guarantees',
+        templateUrl: 'app/limits-guarantees/limits-guarantees.html',
+        controller: 'limits-guaranteesCtrl'
       })
 
       ;
