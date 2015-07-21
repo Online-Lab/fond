@@ -7,12 +7,12 @@
 
 <div class="news-list-wrap">
     <div class="news" ng-repeat = "n in news">
-        <time ng-bind = "n.time">6 мая 16:00</time>
+        <time ng-bind = "n.time"></time>
         <figure>
-            <img ng-src = "../../assets/images/{{n.img}}" src="" alt="">
+            <img ng-src = "{{n.img}}" src="" alt="">
             <figcaption>
                 <p ng-bind = "n.desc"></p>
-                <a href="">Подробнее >></a>
+                <a href="" ui-sref = "news">Подробнее >></a>
             </figcaption>
         </figure>
     </div>
