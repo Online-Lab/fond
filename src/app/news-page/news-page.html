@@ -2,16 +2,16 @@
 
 <div class="news">
     
-    <p ng-bind = "news1.desc"></p>
+    <p ng-bind = "news-page.desc"></p>
 
     <figure>
-        <img ng-src = "{{news1.img}}" src="" alt="">
+        <img ng-src = "{{news-page.img}}" src="" alt="">
         <figcaption>
-            <time ng-bind = "news1.time"></time>
+            <time ng-bind = "news-page.time"></time>
         </figcaption>
     </figure>
 
-    <article ng-bind-html = "news1.article"></article>
+    <article ng-bind-html = "news-page.article"></article>
 
     <div class="share-this-news">
         <span>Поделиться</span>

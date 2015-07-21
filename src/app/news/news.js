@@ -2,7 +2,7 @@
 
 angular.module('fond.news', [])
 
-  .controller('NewsCtrl', function ($scope, $http, $rootScope) {
+  .controller('NewsCtrl', function ($scope, $rootScope) {
 
 
     // $http.get('http://localhost:3000/news')
