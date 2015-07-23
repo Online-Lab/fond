@@ -8,7 +8,7 @@ angular.module('fond', ['ngAnimate',
 	'ui.router',
   'fond.home',
   'fond.news',
-  'fond.news-page',
+  'fond.news-detail',
   'fond.reporting',
   'fond.download',
   'fond.application',
@@ -21,7 +21,6 @@ angular.module('fond', ['ngAnimate',
   'fond.changes-statutes',
   'fond.changes-regulations',
   'fond.certificate',
-  'fond.doc-form',
   'fond.advantages',
   'fond.guarantee',
   'fond.obtaining-loan',
@@ -32,6 +31,52 @@ angular.module('fond', ['ngAnimate',
   'components'
 ])
 
+
+  .run(
+    ['$rootScope', '$state', '$stateParams',
+      function ($rootScope,   $state,   $stateParams) {
+      $rootScope.$state = $state;
+      $rootScope.$stateParams = $stateParams;
+      }
+    ]
+  )
+
+  .factory('utils', function(){
+    return {
+      findById: function findById(a, id){
+        for(var i = 0; i<a.length; i++){
+          if(a[i].id == id) return a[i];
+        }
+        return null;
+      }
+    };
+  })
+
+
+
+  .factory('newsList', ['$http', 'utils', function ($http, utils){
+    var path = 'db.json',
+        newsList = $http.get(path)
+                        .then(function (resp){
+                          return resp.data.news;
+                        });
+    var factory = {};
+    factory.all = function(){
+      return newsList;
+    };
+
+    factory.get = function(id){
+      return newsList.then(function(){
+        return utils.findById(newsList, id);
+      })
+    };
+
+    return factory;
+  }])
+
+
+
+
   .config(function ($stateProvider, $urlRouterProvider) {
 
     $stateProvider
@@ -39,24 +84,50 @@ angular.module('fond', ['ngAnimate',
       .state('home', {
         url: '/',
         templateUrl: 'app/home/home.html',
+        resolve:{
+          newsList: ['newsList',
+            function(newsList){
+              return newsList.all();
+            }
+          ]
+        },
         controller: 'HomeCtrl'
       })
 
       .state('reporting', {
         url: '/reporting',
-        templateUrl: 'app/reporting/reporting.html',
+        templateUrl: 'app/news-detail/news-detail.html',
         controller: 'ReportingCtrl'
       })
 
       .state('news', {
         url: '/news',
-        templateUrl: 'app/news/news.html',
-        controller: 'NewsCtrl'
+        views: {
+          '':{
+            templateUrl: 'app/news/news.html',
+            resolve:{
+              newsList: ['newsList',
+                function(newsList){
+                  return newsList.all();
+                }
+              ]
+            },
+            controller: 'NewsCtrl'
+          }
+        }
+        
       })
 
-      .state('news-page', {
-        url: '/news-page',
-        templateUrl: 'app/news-page/news-page.html',
+      .state('news-detail', {
+        url: '/news/{nId:[0-9]}',
+        templateUrl: 'app/news-detail/news-detail.html',
+        resolve:{
+              newsList: ['newsList',
+                function(newsList){
+                  return newsList.all();
+                }
+              ]
+            },
         controller: 'NewsPageCtrl'
       })
 
@@ -126,12 +197,6 @@ angular.module('fond', ['ngAnimate',
         controller: 'CertificateCtrl'
       })
 
-      .state('doc-form', {
-        url: '/doc-form',
-        templateUrl: 'app/doc-form/doc-form.html',
-        controller: 'Doc-formCtrl'
-      })
-
       .state('advantages', {
         url: '/advantages',
         templateUrl: 'app/advantages/advantages.html',
@@ -181,13 +246,17 @@ angular.module('fond', ['ngAnimate',
 
 
 
-.run(function($rootScope){
-  $rootScope.$on('$stateChangeSuccess', function() {
-     document.body.scrollTop = document.documentElement.scrollTop = 0;
-  });
-})
+  .run(function($rootScope){
+    $rootScope.$on('$stateChangeSuccess', function() {
+       document.body.scrollTop = document.documentElement.scrollTop = 0;
+    });
+  })
 
-.controller('AppCtrl',  function(){
 
-})
+  .controller('AppCtrl',  function($scope, newsList){
+    $scope.news = newsList;
+  })
+
+
+
 ;

@@ -1,0 +1,105 @@
+{
+  "news": [
+    {
+      "id":"8",
+      "time": "15.07.2015 13:05",
+      "img": "http://www.fsc-tambov.ru/images/doc/novosti/apk.jpeg",
+      "desc": "В 2015 году максимальный объём гарантийной поддержки Агентством кредитных гарантий в сфере АПК был оказан субъектам МСП  Тамбовской области",
+      "article": "app/components/news/news15-07-2015.html"
+    },
+    {
+      "id":"7",
+      "time": "06.07.2015 14:09",
+      "img": "http://www.fsc-tambov.ru/images/doc/novosti/brifing.jpeg",
+      "desc": "Информация о деятельности Фонда в 1-м полугодии 2015 г.",
+      "article": "app/components/news/news06-07-2015.html"
+    },
+    {
+      "id":"6",
+      "time": "03.07.2015 11:47",
+      "img": "../../assets/images/news.jpg",
+      "desc": "Итоги работы Фонда содействия кредитованию малого и среднего предпринимательства Тамбовской области в первом полугодии 2015 года",
+      "article": "app/components/news/news03-07-2015.html"
+    },
+    {
+      "id":"5",
+      "time": "17.06.2015 12:23",
+      "img": "../../assets/images/news.jpg",
+      "desc": "Объявлен очередной конкурс в связи с размещением средств Фонда 17.06.2015 г",
+      "article": "app/components/news/news17-06-2015.html"
+    },
+    {
+      "id":"4",
+      "time": "25.05.2015 14:04",
+      "img": "../../assets/images/news.jpg",
+      "desc": "Подведены итоги  конкурса по отбору кредитных организаций 25.05.2015",
+      "article": "app/components/news/news25-05-2015.html"
+    },
+    {
+      "id":"3",
+      "time": "24.04.2015 10:00 ",
+      "img": "../../assets/images/news.jpg",
+      "desc": "Объявлен очередной конкурс в связи с размещением средств Фонда 24.04.2015",
+      "article": "app/components/news/news24-04-2015.html"
+    },
+    {
+      "id":"2",
+      "time": "26.03.2015 17:00",
+      "img": "../../assets/images/news.jpg",
+      "desc": "Подведены итоги конкурса по размещению средств Фонда (26.03.2015)",
+      "article": "app/components/news/news26-03-2015.html"
+    },
+    {
+      "id":"1",
+      "time": "13.02.2015 12:17",
+      "img": "../../assets/images/news.jpg",
+      "desc": "Объявлен очередной конкурс в связи с размещением средств Фонда (13.02.2015)",
+      "article": "app/components/news/news13-02-2015.html"
+    }
+  ],
+  "persons": [
+    {
+      "img": "person.jpg",
+      "name": "Блудов Андрей Михайлович",
+      "post": "директор",
+      "tel": "63-07-26",
+      "email": "ambludov@fsc-tambow.ru"
+    },
+    {
+      "img": "person.jpg",
+      "name": "Незнанова Елена Владимировна",
+      "post": "главный специалист по мониторингу и контролю",
+      "tel": "63-07-27",
+      "email": "ambludov@fsc-tambow.ru"
+    },
+    {
+      "img": "person.jpg",
+      "name": "Арещенкова Алёна Анатольевна",
+      "post": "консультант",
+      "tel": "63-07-27",
+      "email": "ambludov@fsc-tambow.ru"
+    },
+    {
+      "img": "person.jpg",
+      "name": "Каратеева Ирина Григорьевна",
+      "post": "секретарь-референт",
+      "tel": "63-07-26",
+      "email": "ambludov@fsc-tambow.ru"
+    },
+    {
+      "img": "person.jpg",
+      "name": "Михина Людмила Петровна",
+      "post": "главный бухгалтер",
+      "tel": "63-07-27",
+      "email": "ambludov@fsc-tambow.ru"
+    },
+    {
+      "img": "person.jpg",
+      "name": "Сидоренко Александр Сергеевич",
+      "post": "главный юрисконсульт",
+      "tel": "63-07-27",
+      "email": "ambludov@fsc-tambow.ru"
+    }
+  ],
+  "browser-sync": []
+}
