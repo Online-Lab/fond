@@ -8,7 +8,7 @@ angular.module('fond', ['ngAnimate',
 	'ui.router',
   'fond.home',
   'fond.news',
-  'fond.news-page',
+  'fond.news-detail',
   'fond.reporting',
   'fond.download',
   'fond.application',
@@ -31,6 +31,52 @@ angular.module('fond', ['ngAnimate',
   'components'
 ])
 
+
+  .run(
+    ['$rootScope', '$state', '$stateParams',
+      function ($rootScope,   $state,   $stateParams) {
+      $rootScope.$state = $state;
+      $rootScope.$stateParams = $stateParams;
+      }
+    ]
+  )
+
+  .factory('utils', function(){
+    return {
+      findById: function findById(a, id){
+        for(var i = 0; i<a.length; i++){
+          if(a[i].id == id) return a[i];
+        }
+        return null;
+      }
+    };
+  })
+
+
+
+  .factory('newsList', ['$http', 'utils', function ($http, utils){
+    var path = 'db.json',
+        newsList = $http.get(path)
+                        .then(function (resp){
+                          return resp.data.news;
+                        });
+    var factory = {};
+    factory.all = function(){
+      return newsList;
+    };
+
+    factory.get = function(id){
+      return newsList.then(function(){
+        return utils.findById(newsList, id);
+      })
+    };
+
+    return factory;
+  }])
+
+
+
+
   .config(function ($stateProvider, $urlRouterProvider) {
 
     $stateProvider
@@ -38,25 +84,54 @@ angular.module('fond', ['ngAnimate',
       .state('home', {
         url: '/',
         templateUrl: 'app/home/home.html',
+        resolve:{
+          newsList: ['newsList',
+            function(newsList){
+              return newsList.all();
+            }
+          ]
+        },
         controller: 'HomeCtrl'
       })
 
       .state('reporting', {
         url: '/reporting',
-        templateUrl: 'app/reporting/reporting.html',
+        templateUrl: 'app/news-detail/news-detail.html',
         controller: 'ReportingCtrl'
       })
 
       .state('news', {
         url: '/news',
-        templateUrl: 'app/news/news.html',
-        controller: 'NewsCtrl'
+        views: {
+          '':{
+            templateUrl: 'app/news/news.html',
+            resolve:{
+              newsList: ['newsList',
+                function(newsList){
+                  return newsList.all();
+                }
+              ]
+            },
+            controller: 'NewsCtrl'
+          }
+        }
+        
       })
 
-      .state('news-page', {
-        url: '/news-page',
-        templateUrl: 'app/news-page/news-page.html',
-        controller: 'NewsPageCtrl'
+      .state('news.detail', {
+        url: '/{nId:[0-9]}',
+        views: {
+          '':{
+              templateUrl: 'app/news-detail/news-detail.html',
+              controller: ['$scope', '$stateParams', 'utils',
+                function ($scope, $stateParams, utils) {
+                  $scope.n = utils.findById($scope.news, $stateParams.nId);
+                }]
+            }
+
+        }
+        
+
       })
 
       .state('download', {
@@ -176,60 +251,15 @@ angular.module('fond', ['ngAnimate',
 
   .run(function($rootScope){
     $rootScope.$on('$stateChangeSuccess', function() {
-       $document.body.scrollTop = document.documentElement.scrollTop = 0;
+       document.body.scrollTop = document.documentElement.scrollTop = 0;
     });
   })
 
-  .controller('AppCtrl',  function($scope){
-    $scope.news = [
-        {
-          'time': '15.07.2015 13:05',
-          'img': 'http://www.fsc-tambov.ru/images/doc/novosti/apk.jpeg',
-          'desc': 'В 2015 году максимальный объём гарантийной поддержки Агентством кредитных гарантий в сфере АПК был оказан субъектам МСП  Тамбовской области',
-          'article': 'news15-07-2015.html'
-        },
-        {
-          'time': '06.07.2015 14:09',
-          'img': 'http://www.fsc-tambov.ru/images/doc/novosti/brifing.jpeg',
-          'desc': 'Информация о деятельности Фонда в 1-м полугодии 2015 г.',
-          'article': 'news06-07-2015.html'
-        },
-        {
-          'time': '03.07.2015 11:47',
-          'img': '../../assets/images/news.jpg',
-          'desc': 'Итоги работы Фонда содействия кредитованию малого и среднего предпринимательства Тамбовской области в первом полугодии 2015 года',
-          'article': 'news03-07-2015.html'
-        },
-        {
-          'time': '17.06.2015 12:23',
-          'img': '../../assets/images/news.jpg',
-          'desc': 'Объявлен очередной конкурс в связи с размещением средств Фонда 17.06.2015 г',
-          'article': 'news17-06-2015.html'
-        },
-        {
-          'time': '25.05.2015 14:04',
-          'img': '../../assets/images/news.jpg',
-          'desc': 'Подведены итоги  конкурса по отбору кредитных организаций 25.05.2015',
-          'article': 'news25-05-2015.html'
-        },
-        {
-          'time': '24.04.2015 10:00 ',
-          'img': '../../assets/images/news.jpg',
-          'desc': 'Объявлен очередной конкурс в связи с размещением средств Фонда 24.04.2015',
-          'article': 'news24-04-2015.html'
-        },
-        {
-          'time': '26.03.2015 17:00',
-          'img': '../../assets/images/news.jpg',
-          'desc': 'Подведены итоги конкурса по размещению средств Фонда (26.03.2015)',
-          'article': 'news26-03-2015.html'
-        },
-        {
-          'time': '13.02.2015 12:17',
-          'img': '../../assets/images/news.jpg',
-          'desc': 'Объявлен очередной конкурс в связи с размещением средств Фонда (13.02.2015)',
-          'article': 'news13-02-2015.html'
-        }
-      ];
+
+  .controller('AppCtrl',  function($scope, newsList){
+    $scope.news = newsList;
   })
+
+
+
 ;
