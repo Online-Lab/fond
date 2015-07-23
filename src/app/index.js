@@ -118,20 +118,17 @@ angular.module('fond', ['ngAnimate',
         
       })
 
-      .state('news.detail', {
-        url: '/{nId:[0-9]}',
-        views: {
-          '':{
-              templateUrl: 'app/news-detail/news-detail.html',
-              controller: ['$scope', '$stateParams', 'utils',
-                function ($scope, $stateParams, utils) {
-                  $scope.n = utils.findById($scope.news, $stateParams.nId);
-                }]
-            }
-
-        }
-        
-
+      .state('news-detail', {
+        url: '/news/{nId:[0-9]}',
+        templateUrl: 'app/news-detail/news-detail.html',
+        resolve:{
+              newsList: ['newsList',
+                function(newsList){
+                  return newsList.all();
+                }
+              ]
+            },
+        controller: 'NewsPageCtrl'
       })
 
       .state('download', {

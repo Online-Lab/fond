@@ -1,17 +1,12 @@
 <bredcrumbs></bredcrumbs>
 
 <div class="news">
-    
-    <p ng-bind = "n.desc"></p>
 
-    <figure>
-        <img ng-src = "{{n.img}}" src="" alt="">
-        <figcaption>
-            <time ng-bind = "n.time"></time>
-        </figcaption>
-    </figure>
+    <time ng-bind = "n.time"></time>
 
-    <article ng-bind-html = "n.article"></article>
+
+    <article ng-include = "n.article"></article>
+
 
     <div class="share-this-news">
         <span>Поделиться</span>
