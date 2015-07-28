@@ -207,3 +207,28 @@ li.for-starblind
             background url(../../assets/images/docs.png) 0 top no-repeat
         &:hover:after
             background url(../../assets/images/docs.png) 0 bottom no-repeat
+
+
+.breadcrumb
+    display block
+    padding 10px 0 10px 0
+    margin-bottom 10px
+    font-size 14px
+    border-bottom 1px solid #232323
+    li
+        display inline-block
+        max-width 200px
+        text-overflow ellipsis
+        white-space nowrap
+        overflow hidden
+        &:after
+            content ">"
+            display inline-block
+            margin 0 5px
+        &:last-child:after
+            content ""
+    a
+        text-decoration underline
+        color #232323
+        &:hover
+            text-decoration none
