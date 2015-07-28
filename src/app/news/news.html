@@ -1,10 +1,11 @@
 <div class="page-title">
     <h2>Новости</h2>
-    <pagination></pagination>
+    <dir-pagination-controls></dir-pagination-controls>
 </div>
 
 <div class="news-list-wrap">
-    <div class="news" ng-repeat = "n in news">
+
+    <div class="news" dir-paginate = "n in news | itemsPerPage: 6">
         <time ng-bind = "n.time"></time>
         <figure>
             <img ng-src = "{{n.img}}" src="" alt="">
