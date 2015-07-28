@@ -56,20 +56,20 @@ angular.module('fond', ['ngAnimate',
 
 
 
-  .factory('newsList', ['$http', 'utils', function ($http, utils){
+  .factory('getJson', ['$http', 'utils', function ($http, utils){
     var path = 'db.json',
-        newsList = $http.get(path)
+        getJson = $http.get(path)
                         .then(function (resp){
-                          return resp.data.news;
+                          return resp.data;
                         });
     var factory = {};
     factory.all = function(){
-      return newsList;
+      return getJson;
     };
 
     factory.get = function(id){
-      return newsList.then(function(){
-        return utils.findById(newsList, id);
+      return getJson.then(function(){
+        return utils.findById(getJson, id);
       })
     };
 
@@ -87,9 +87,9 @@ angular.module('fond', ['ngAnimate',
         url: '/',
         templateUrl: 'app/home/home.html',
         resolve:{
-          newsList: ['newsList',
-            function(newsList){
-              return newsList.all();
+          getJson: ['getJson',
+            function(getJson){
+              return getJson.all();
             }
           ]
         },
@@ -113,9 +113,9 @@ angular.module('fond', ['ngAnimate',
         url: '/news',
         templateUrl: 'app/news/news.html',
         resolve:{
-          newsList: ['newsList',
-            function(newsList){
-              return newsList.all();
+          getJson: ['getJson',
+            function(getJson){
+              return getJson.all();
             }
           ]
         },
@@ -130,9 +130,9 @@ angular.module('fond', ['ngAnimate',
         url: '/news/{nId:[0-9]}',
         templateUrl: 'app/news-detail/news-detail.html',
         resolve:{
-          newsList: ['newsList',
-            function(newsList){
-              return newsList.all();
+          getJson: ['getJson',
+            function(getJson){
+              return getJson.all();
             }
           ]
         },
@@ -337,8 +337,8 @@ angular.module('fond', ['ngAnimate',
   })
 
 
-  .controller('AppCtrl',  function($scope, newsList){
-    $scope.news = newsList;
+  .controller('AppCtrl',  function($scope, getJson){
+    $scope.news = getJson;
   })
 
 

@@ -2,8 +2,8 @@
 
 angular.module('fond.news', [])
 
-  .controller('NewsCtrl', function ($scope, newsList) {
-    $scope.news = newsList;
+  .controller('NewsCtrl', function ($scope, getJson) {
+    $scope.news = getJson.news;
 
   })
 
