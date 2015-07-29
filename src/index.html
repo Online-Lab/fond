@@ -28,11 +28,18 @@
     <![endif]-->
     <header></header>
 
-    <div class = "main-container center clr" ng-controller="HomeCtrl">
-        
-        <div ui-view autoscroll="false" class = "main-content"></div>
+    
 
+    <div class = "main-container center clr" ng-controller="HomeCtrl">
+        <div class="main-content" ng-hide = "$state.is('home')">
+            <div ncy-breadcrumb></div>
+        </div>
         <aside class = "clr"></aside>
+        <div ui-view autoscroll="false" class = "main-content">
+
+        </div>
+
+        
 
     </div>
     

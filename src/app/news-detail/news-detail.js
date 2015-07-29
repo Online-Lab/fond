@@ -2,9 +2,9 @@
 
 angular.module('fond.news-detail', [])
 
-  .controller('NewsPageCtrl', function ($scope, $stateParams, utils, newsList) {
-    $scope.news = newsList;
-    $scope.n = utils.findById($scope.news, $stateParams.nId);
+  .controller('NewsPageCtrl', function ($scope, $stateParams, utils, getJson) {
+    $scope.news = getJson.news;
+    $scope.n = utils.findById(getJson.news, $stateParams.nId);
   })
 
 ;

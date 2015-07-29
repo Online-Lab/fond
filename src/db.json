@@ -1,4 +1,63 @@
 {
+  "banks":[
+    {
+      "img": "sber.png",
+      "link": "http://www.sberbank.ru/ru/person"
+    },
+    {
+      "img": "rosselhoz.png",
+      "link": "http://www.rshb.ru/"
+    },
+    {
+      "img": "mosobl.png",
+      "link": "http://www.mosoblbank.ru/"
+    },
+    {
+      "img": "prom-svyaz-bank.png",
+      "link": "http://www.psbank.ru/"
+    },
+    {
+      "img": "ros-avto-bank.png",
+      "link": "http://www.rosavtobank.ru/"
+    },
+    {
+      "img": "noviy-vek.png",
+      "link": "http://newbank.ru/"
+    },
+    {
+      "img": "uralsib.png",
+      "link": "http://www.bankuralsib.ru/index.wbp"
+    },
+    {
+      "img": "smp-bank.png",
+      "link": "http://smpbank.ru/"
+    },
+    {
+      "img": "svyaz-bank.png",
+      "link": "http://www.sviaz-bank.ru/"
+    },
+    {
+      "img": "msp.png",
+      "link": "https://www.mspbank.ru/"
+    },
+    {
+      "img": "lizing-ru.png",
+      "link": "http://r-leasing.ru/"
+    },
+    {
+      "img": "tkpb.png",
+      "link": "http://www.tkpb.ru/"
+    },
+    {
+      "img": "vtb.png",
+      "link": "http://www.vtb.ru/"
+    },
+    {
+      "img": "vtb24.png",
+      "link": "http://www.vtb24.ru/personal/Pages/default.aspx"
+    }
+  ],
+
   "news": [
     {
       "id":"8",
@@ -100,6 +159,5 @@
       "tel": "63-07-27",
       "email": "ambludov@fsc-tambow.ru"
     }
-  ],
-  "browser-sync": []
+  ]
 }

@@ -2,9 +2,9 @@
 
 angular.module('fond.home', [])
   
-  .controller('HomeCtrl', function ($scope, newsList) {
-    $scope.news = newsList;
-
+  .controller('HomeCtrl', function ($scope, getJson) {
+    $scope.news = getJson.news;
+    $scope.banks = getJson.banks;
   })
 
 ;

@@ -62,4 +62,34 @@
         font-size 22px
         line-height 20px
         padding 0 0 7px 15px
-    
+
+
+dir-pagination-controls
+    display table-cell
+    text-align right
+    vertical-align bottom
+.pagination
+    display inline-block
+    li
+        display inline-block
+        // margin 0 3px
+        a
+            color #285258
+            text-decoration none
+            padding 5px
+            border-radius 4px
+            font-size 14px
+            &:hover
+                background-color #c7c7c5
+        &.active a
+            font-weight 700
+            text-decoration underline
+        &:first-child a,
+        &:last-child a
+            color #c7c7c5
+            padding 5px 10px
+            font-weight 700
+            border-radius 4px
+            &:hover
+                background-color #c7c7c5
+                color #fff

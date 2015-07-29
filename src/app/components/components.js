@@ -5,7 +5,5 @@ angular.module('components', [
     'aside',
     'footer',
     'slickSlider',
-    'pagination',
-    'bredcrumbs',
     'person'
 ]);
