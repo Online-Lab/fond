@@ -12,7 +12,9 @@
     <div class="news" ng-repeat = "n in news">
         <time ng-bind = "n.time"></time>
         <figure>
-            <img ng-src = "{{n.img}}" src="" alt="">
+            <div class="img-wrap">
+                <img ng-src = "{{n.img}}" src="" alt="">
+            </div>
             <figcaption>
                 <p ng-bind = "n.desc"></p>
                 <a href="" ui-sref = "news-detail({nId:n.id})">Подробнее >></a>
