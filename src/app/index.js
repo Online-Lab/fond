@@ -105,7 +105,7 @@ angular.module('fond', ['ngAnimate',
         controller: 'ReportingCtrl',
         ncyBreadcrumb: {
           parent: 'home',
-          label: ' Отчет'
+          label: ' Отчетность фонда'
         }
       })
 
