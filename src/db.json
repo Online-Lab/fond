@@ -60,6 +60,13 @@
 
   "news": [
     {
+      "id":"9",
+      "time": "28.07.2015",
+      "img": "../../assets/images/news9.jpg",
+      "desc": "Подведены итоги конкурса по отбору кредитных организаций.",
+      "article": "app/components/news/news28-07-2015.html"
+    },
+    {
       "id":"8",
       "time": "15.07.2015 13:05",
       "img": "http://old.fsc-tambov.ru/images/doc/novosti/apk.jpeg",
