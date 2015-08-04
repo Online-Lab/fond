@@ -127,7 +127,7 @@ angular.module('fond', ['ngAnimate',
       })
 
       .state('news-detail', {
-        url: '/news/{nId:[0-9]}',
+        url: '/news/{nId}',
         templateUrl: 'app/news-detail/news-detail.html',
         resolve:{
           getJson: ['getJson',
