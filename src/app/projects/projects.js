@@ -1,32 +1,23 @@
 'use strict';
 
 angular.module('fond.projects', [])
+    .directive('projects', function(){
+      return{
+          restrict: 'EA',
+          templateUrl: 'app/projects/projects-directive.html',
+          scope: {},
+          link: function(scope, element, attrs){
+               scope.projects = ['', 'Бондарский район', 'Гавриловский район', 'Жердевский район', 'Знаменский район', 'Инжавинский район', 'Кирсановский район', 'Мичуринский район', 'Мордовский район', 'Моршанский район', 'Мучкапский район', 'Никифоровский район', 'Первомайский район', 'Петровский район', 'Пичаевский район', 'Рассказовский район', 'Ржаксинский район', 'Сампурский район', 'Сосновский район', 'Староюрьевский район', 'Тамбовский район', 'Токарёвский район', 'Уваровский район', 'Умётский район'];
+                scope.hover = function(){
+                    var thisIndex = this.$index;
+                    console.log(element);
+                }
+          }
+      }
+    })
+    .controller('ProjectsCtrl', function ($scope) {
+      $scope.hovering = false;
 
-  .controller('ProjectsCtrl', function ($scope) {
-    $scope.hovering = false;
-    $scope.dis1 = false;
-    $scope.dis2 = false;
-    $scope.dis3 = false;
-    $scope.dis4 = false;
-    $scope.dis5 = false;
-    $scope.dis6 = false;
-    $scope.dis7 = false;
-    $scope.dis8 = false;
-    $scope.dis9 = false;
-    $scope.dis10 = false;
-    $scope.dis11 = false;
-    $scope.dis12 = false;
-    $scope.dis13 = false;
-    $scope.dis14 = false;
-    $scope.dis15 = false;
-    $scope.dis16 = false;
-    $scope.dis17 = false;
-    $scope.dis18 = false;
-    $scope.dis19 = false;
-    $scope.dis20 = false;
-    $scope.dis21 = false;
-    $scope.dis22 = false;
-    $scope.dis23 = false;
-  })
+    })
 
 ;
