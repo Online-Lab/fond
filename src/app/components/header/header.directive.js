@@ -2,14 +2,18 @@
 
 angular.module('header', [])
 
-  .directive('header', function (){
+  .directive('header', function ($rootScope){
     return{
       restrict: 'E',
       templateUrl: 'app/components/header/header.html',
-      scope: {}
-      // link: function(scope, element, attrs){
-      //   scope.date = new Date();
-      // }
+      scope: {},
+
+      controller: function($rootScope, $scope){
+        $scope.toggleSandBlindVer = function(){
+          $rootScope.sandBlindVer = !$rootScope.sandBlindVer;
+        };
+      }
+      
     };
   })
 

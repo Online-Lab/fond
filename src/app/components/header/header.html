@@ -1,14 +1,13 @@
 <div class="center">
-
     <div class="hd-1 clr">
-
         <a href="" ui-sref = "home" class = "logo-wrap">
-            <img src="../../../assets/images/logo.png" alt="">
+            <img src="../../../assets/images/logo.png" alt="" ng-hide = "$root.sandBlindVer">
+            <img src="../../../assets/images/logo-col1.png" alt="" ng-show = "$root.sandBlindVer">
         </a>
 
         <ul class="header-info-wrap">
-            <li class = "for-starblind">
-                <a href="">Версия для слабовидящих</a>
+            <li class = "for-starblind" ng-click = "toggleSandBlindVer()" ng-hide = "$root.sandBlindVer">
+                <a href="" >Версия для слабовидящих</a>
             </li>
             <li class = "phone-num"><a href = "tel:+74752630726">+7 (4752) 63-07-26</a></li>
             <li class = "address">г.Тамбов, ул. Максима Горького, 17/129, бизнес-центр "Галерея", оф. 608</li>

@@ -76,14 +76,14 @@
       "time": "30.07.2015",
       "img": "../../assets/images/news/30.07.15-1.jpg",
       "desc": "О предельных значениях выручки субъектов малого и среднего предпринимательства от реализации товаров (работ, услуг)",
-      "article": "app/components/news/news30-07-2015-2.html"
+      "article": "app/components/news/news30-07-2015-1.html"
     },
     {
       "id":"11",
       "time": "30.07.2015",
       "img": "../../assets/images/news/30.07.15-2.jpg",
       "desc": "О распределении в 2015 году субсидий субъектам Федерации на государственную поддержку малого и среднего предпринимательства ",
-      "article": "app/components/news/news30-07-2015-1.html"
+      "article": "app/components/news/news30-07-2015-2.html"
     },
     {
       "id":"10",
