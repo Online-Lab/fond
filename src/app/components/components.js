@@ -3,6 +3,7 @@
 angular.module('components', [
     'header',
     'aside',
+    'sand-blind',
     'footer',
     'slickSlider',
     'person'
