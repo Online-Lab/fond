@@ -21,12 +21,15 @@ aside
         border 0
     img
         width 100%
+    span
+        display none
+        font-size 1.4em
 
 .aside-header
     background-color #37455e
     margin 0
     text-align center
-    font-size 18px
+    font-size 1.8em
     color #fff
     display block
     padding 5px 0
@@ -46,7 +49,7 @@ aside
 .usa
     display block
     padding 6px 0px 6px 22px
-    font-size 14px
+    font-size 1.4em
     margin-left 10px
     .red
         color #ff0000
@@ -59,7 +62,7 @@ aside
     .red,
     .green
         &:before
-            font-size 10px
+            font-size 1em
             padding-right 2px
 .euro
     background url(../../assets/images/euro.jpg) 0 center no-repeat
@@ -70,4 +73,35 @@ aside
 .exchange:after
     content " руб."
     padding 0 2px
+
+
+
+.sand-blind
+    .block
+        text-decoration none
+        border 0
+        span
+            display block
+            text-align center
+        img
+            display none
+    .euro, .usa
+        padding 0
+        background none
+        padding 10px 0
+    .euro
+        border-bottom 2px dotted black
+    &.col1
+        .block
+            border-bottom 2px solid black
+            padding 10px 0
+            &>span
+                color black
+                &:hover
+                    text-decoration underline
+            .aside-header
+                color white
+        .aside-header
+            color white
+            background-color black
     
