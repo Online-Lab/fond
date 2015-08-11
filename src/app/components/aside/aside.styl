@@ -21,7 +21,7 @@ aside
         border 0
     img
         width 100%
-    span
+    &>span
         display none
         font-size 1.4em
 
@@ -77,31 +77,47 @@ aside
 
 
 .sand-blind
-    .block
+    aside
+        border-left 1px solid black
+    a.block
         text-decoration none
         border 0
-        span
+        border-bottom 1px solid black
+        &>span
             display block
             text-align center
         img
             display none
+        &:last-of-type
+            border 0
     .euro, .usa
         padding 0
         background none
         padding 10px 0
-    .euro
-        border-bottom 2px dotted black
+        text-align center
+        font-size 1.7em
+        .count
+            margin-right 15px
+            display inline-block
+
+
+
+
+
+
+
     &.col1
-        .block
-            border-bottom 2px solid black
+        a.block
+            border-color black
             padding 10px 0
             &>span
                 color black
-                &:hover
-                    text-decoration underline
             .aside-header
                 color white
+            &:hover span
+                text-decoration underline
         .aside-header
             color white
             background-color black
-    
+        .euro
+            border-bottom 2px dotted black

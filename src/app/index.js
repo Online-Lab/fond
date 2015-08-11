@@ -477,7 +477,7 @@ angular.module('fond', ['ngAnimate',
 
   .controller('AppCtrl',  function($scope, getJson, $rootScope){
     $scope.news = getJson;
-    $rootScope.sandBlindVer = true;
+    $rootScope.sandBlindVer = false;
     $scope.col1 = true;
 
   })
