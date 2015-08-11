@@ -70,7 +70,7 @@ angular.module('fond', ['ngAnimate',
     factory.get = function(id){
       return getJson.then(function(){
         return utils.findById(getJson, id);
-      })
+      });
     };
 
     return factory;
@@ -477,7 +477,7 @@ angular.module('fond', ['ngAnimate',
 
   .controller('AppCtrl',  function($scope, getJson, $rootScope){
     $scope.news = getJson;
-    $rootScope.sandBlindVer = false;
+    $rootScope.sandBlindVer = true;
     $scope.col1 = true;
 
   })

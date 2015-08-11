@@ -3,7 +3,7 @@
     display table
     margin-bottom 20px
     h1
-        font-size 25px
+        font-size 2.5em
         margin 0
         font-weight 100
         display table-cell
@@ -19,40 +19,45 @@
             float right
             color #a3a2a0
             text-decoration none
+            margin-top 1em
         p
             margin 0
             padding 0 0 7px 15px
-            font-size 16px
-            height 29px
+            font-size 1.6em
+            height 2em
             overflow hidden
-            line-height 17px
+            line-height 1.3em
 
 .news
-    font-size 14px
     width 100%
     color #303030
     margin-bottom 30px
     figure,
     figcaption
         margin 0
+        width 100%
         img
             width 100%
+        p
+            font-size 1.5em
     time,
     article
         padding 7px 15px
         display inline-block
+    time, a
+        font-size 1.4em
         
     article 
-        font-size 16px
+        // font-size 16px
         position relative
         z-index 3
         p
-            font-size 16px
+            font-size 1.6em
             padding: 0
             img
                 width 100%
             &:first-of-type
-                font-size 22px
+                font-size 2.2em
                 font-weight 700
         ul
             display block
@@ -61,10 +66,10 @@
         a
             color #3399cc
     p
-        font-size 22px
-        line-height 20px
+        font-size 2.2em
+        line-height 1.4em
         padding 0 0 7px 15px
-
+   
 
 dir-pagination-controls
     display table-cell
@@ -80,7 +85,7 @@ dir-pagination-controls
             text-decoration none
             padding 5px
             border-radius 4px
-            font-size 14px
+            font-size 1.4em
             &:hover
                 background-color #c7c7c5
         &.active a
@@ -102,3 +107,20 @@ dir-pagination-controls
     overflow hidden
     height 150px
     margin-bottom 10px
+    
+
+
+.sand-blind
+    .news-list-wrap
+        display block
+        .news
+            width 100%
+            display block
+
+            p
+                margin 0
+                padding 0 0 7px 15px
+                font-size 1.6em
+                height auto
+                overflow visible
+                line-height 1.3em
