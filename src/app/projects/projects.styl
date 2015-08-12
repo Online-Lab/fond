@@ -5,6 +5,11 @@
     background-color #fff
     padding 10px
     border-radius 10px
+    &:after
+        content ""
+        display block
+        height 0
+        clear both
 .projects
     width 70%
     display inline-block
@@ -29,7 +34,8 @@
     a
         color #4e737c
         &:hover
-            font-weight 700
+            text-decoration none
+            // font-weight 700
 a.hovered
     path
         fill #debba5
@@ -46,6 +52,7 @@ a.hovered
     img
         display block
         width 100%
+    
         
 .article-wrap
     margin-bottom 40px
@@ -54,8 +61,36 @@ a.hovered
         display block
         height 0
         clear both
+    article p
+        font-size 1.4em
     
 
 .region-name
     padding-bottom 10px
+    font-size 2em
     // border-bottom 2px solid black
+
+.proj-name
+    font-size 1.6em
+
+
+
+
+
+
+.sand-blind
+    .article-wrap .img-wrap
+        display none
+    &.white
+        .projects-list li a
+            color black
+
+    &.black
+        .projects-list li a
+            color black
+        
+
+    &.blue
+        .projects-list li a
+            color #063462
+        

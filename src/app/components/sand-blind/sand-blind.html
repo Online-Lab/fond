@@ -7,33 +7,79 @@
             <span>
                 Размер шрифта:
             </span>
-            <ul class="font-size">
-                <li>
-                    <button class="small active">A</button>
-                </li>
-                <li>
-                    <button class="medium">A</button>
-                </li>
-                <li>
-                    <button class="large">A</button>
-                </li>
-            </ul>
+            <form class = "font-size" name = "font-size-panel">
+                <input type="radio" 
+                    name="font-size" 
+                    id = "small" 
+                    ng-model = "fontSize" 
+                    value = "small" 
+                    ng-change = "fontSizeChange(fontSize)"
+                >
+
+                <label class="small" for = "small">A</label>
+                
+                <input type="radio" 
+                    name="font-size" 
+                    id = "medium" 
+                    ng-model = "fontSize" 
+                    value = "medium" 
+                    ng-change = "fontSizeChange(fontSize)"
+                    ng-checked="true" 
+                >
+
+                <label class="medium" for = "medium">A</label>
+
+                <input type="radio" 
+                    name="font-size" 
+                    id = "large" 
+                    ng-model = "fontSize" 
+                    value = "large" 
+                    ng-change = "fontSizeChange(fontSize)"
+                >
+
+                <label class="large" for = "large">A</label>
+
+            </form>
+
         </div>
         <div class="cell1_3">
             <span>
                 Цветовая схема:
             </span>
-            <ul class="color-shema">
-                <li>
-                    <button class="white active">A</button>
-                </li>
-                <li>
-                    <button class="black">A</button>
-                </li>
-                <li>
-                    <button class="blue">A</button>
-                </li>
-            </ul>
+
+            <form class = "color-theme" name = "font-size-panel">
+                <input type="radio" 
+                    name="color" 
+                    id = "white" 
+                    ng-model = "color" 
+                    value = "white" 
+                    ng-change = "colorThemeChange(color)"
+                    ng-checked = "true"
+                >
+
+                <label class="white" for = "white">A</label>
+                
+                <input type="radio" 
+                    name="color" 
+                    id = "black" 
+                    ng-model = "color" 
+                    value = "black" 
+                    ng-change = "colorThemeChange(color)"
+                >
+
+                <label class="black" for = "black">A</label>
+
+                <input type="radio" 
+                    name="color" 
+                    id = "blue" 
+                    ng-model = "color" 
+                    value = "blue" 
+                    ng-change = "colorThemeChange(color)"
+                >
+
+                <label class="blue" for = "blue">A</label>
+
+            </form>
         </div>
     </div>
 </div>

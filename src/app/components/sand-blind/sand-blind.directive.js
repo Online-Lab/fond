@@ -11,6 +11,14 @@ angular.module('sand-blind', ['ngResource'])
                 $scope.toggleSandBlindVer = function(){
                   $rootScope.sandBlindVer = !$rootScope.sandBlindVer;
                 };
+                $scope.fontSizeChange = function(value){
+                    console.log(value);
+                    $rootScope.fontSize = value;
+                };
+                $scope.colorThemeChange = function(value){
+                    console.log(value)
+                    $rootScope.colorTheme = value;
+                };
             }
         };
     })

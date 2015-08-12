@@ -268,6 +268,34 @@ li.for-starblind
     .main-menu
         width 100%
         text-align center
+        &>li
+            &.active,
+            &:hover
+                &>a
+                    box-shadow none
+            &:first-child a
+                border-radius 0
+        .sub-menu
+            margin-left -2px
+            margin-top 0
+            border 2px solid black
+            border-radius 0
+            padding 0
+            li
+                padding: 0
+                a
+                    padding 10px
+                    display block
+                    border 2px solid white
+        .sub-sub-menu-wrap
+            ul
+                border 2px solid black
+                margin-left 0
+                padding 0
+                border-radius 0
+                a,
+                li
+                    display block
     .search-form
         float none
         width 90%
@@ -285,15 +313,15 @@ li.for-starblind
             width 80px
             box-sizing border-box
             background-size auto 20px
+            border 2px solid white
     .header-links
         a
-            color black
             &:after 
                 display none
             &:hover
                 text-decoration underline
                 
-    &.col1
+    &.white
         .header-info-wrap li,
         .header-info-wrap li a
             color black
@@ -306,39 +334,144 @@ li.for-starblind
                 &.active,
                 &:hover
                     &>a
-                        border-top 5px solid #2d2f31
+                        border-color black
                         background white
-                        box-shadow none
                         color black
-                &:first-child a
-                    border-radius 0
-            .sub-menu
-                margin-left -2px
-                margin-top 0
-                border 2px solid black
-                border-radius 0
-                padding 0
+                        &:after
+                            border-top-color black
+
+            .sub-menu 
+                border-color black
                 li
-                    padding: 0
                     a
-                        padding 10px
-                        display block
-                        border 2px solid white
+                        border-color white
+                        color black
                         &:hover
                             background black
                             color white
             .sub-sub-menu-wrap
-                
                 ul
-                    border 2px solid black
-                    margin-left 0
-                    padding 0
-                    border-radius 0
-                    a,
-                    li
-                        display block
+                    border-color black
+                  
         .search-form
             background-color white
             button
                 background-color black
-                border 2px solid white
+                border-color white
+        .header-links,
+        .breadcrumb
+            a
+                color black
+        .news,
+        .news a,
+        .content-title a,
+        .pagination li a
+            color black
+
+
+    &.black
+        .header-info-wrap li,
+        .header-info-wrap li a
+            color white
+        .hd-2
+            background-color white
+        header 
+            border-color white
+        .main-menu
+            &>li
+                &.active,
+                &:hover
+                    &>a
+                        border-color white
+                        background black
+                        color white
+                        &:after
+                            border-top-color white
+
+                a
+                    color black
+            .sub-menu 
+                border-color black
+                li
+                    a
+                        border-color white
+                        &:hover
+                            background black
+                            color white
+            .sub-sub-menu-wrap
+                ul
+                    border-color white
+                  
+        .search-form
+            background-color white
+            border 2px solid black
+            input
+                border-color black
+            button
+                background-color black
+                border-color black
+        .header-links,
+        .breadcrumb
+            a
+                color white
+        .news,
+        .news a,
+        .content-title a,
+        .pagination li a
+            color white
+
+
+
+    &.blue
+        .header-info-wrap li,
+        .header-info-wrap li a
+            color #063462
+        .hd-2
+            background-color #063462
+        header 
+            border-color #063462
+        .main-menu
+            &>li
+                &.active,
+                &:hover
+                    &>a
+                        border-color #063462
+                        background #9dd1ff
+                        color #063462
+                        &:after
+                            border-top-color #063462
+
+                a
+                    color #9dd1ff
+            .sub-menu 
+                border-color  #063462
+                background-color #9dd1ff
+                li
+                    a
+                        border-color #9dd1ff
+                        color  #063462
+                        &:hover
+                            background #063462
+                            color #9dd1ff
+            .sub-sub-menu-wrap
+                ul
+                    border-color #063462
+                    background-color #9dd1ff
+                  
+        .search-form
+            background-color white
+            border 2px solid #9dd1ff
+            input
+                border-color #9dd1ff
+            button
+                background-color #9dd1ff
+                border-color #9dd1ff
+        .header-links,
+        .breadcrumb
+            a
+                color #063462
+        .news,
+        .news a,
+        .content-title a,
+        .pagination li a
+            color #063462
