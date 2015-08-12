@@ -77,11 +77,14 @@ aside
 
 
 .sand-blind
-    aside
-        border-left 1px solid black
+    .block-map
+        margin-bottom 20px
+        border-bottom 1px solid black
+    
     a.block
         text-decoration none
         border 0
+        padding 10px 
         border-bottom 1px solid black
         &>span
             display block
@@ -90,6 +93,8 @@ aside
             display none
         &:last-of-type
             border 0
+        &:hover span
+            text-decoration underline
     .euro, .usa
         padding 0
         background none
@@ -99,25 +104,51 @@ aside
         .count
             margin-right 15px
             display inline-block
+    .euro
+        border-bottom 2px dotted black
 
 
 
 
 
 
-
-    &.col1
+    &.white
         a.block
             border-color black
-            padding 10px 0
+
             &>span
                 color black
             .aside-header
                 color white
-            &:hover span
-                text-decoration underline
         .aside-header
             color white
             background-color black
         .euro
-            border-bottom 2px dotted black
+            border-color black
+    
+    &.black
+        a.block
+            border-color white
+
+            &>span
+                color white
+            .aside-header
+                color black
+        .aside-header
+            color black
+            background-color white
+        .euro
+            border-color white
+            
+    &.blue
+        a.block
+            border-color #063462
+            &>span
+                color #063462
+            .aside-header
+                color #063462
+        .aside-header
+            color  #9dd1ff
+            background-color #063462
+        .euro
+            border-color #9dd1ff

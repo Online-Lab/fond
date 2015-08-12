@@ -24,50 +24,66 @@
         border-left 1px solid grey
 
 .font-size,
-.color-shema
-    // margin-left 10px
-    li
-        margin 0 3px
-        button
-            padding 0
-            border 0
-            box-sizing border-box
-            border 1px solid transparent
-.font-size button
-    width 20px
-    height 25px
-    background-color transparent
-    &.small
-        font-size 12px
-    &.medium
-        font-size 15px
-    &.large
-        font-size 18px
-    &.active
+.color-theme
+    margin-left 10px
+    display inline-block
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    label
+        margin 0 5px
+        padding 0
+        border 0
+        box-sizing border-box
+        border 1px solid transparent
+    input
+        display none
+            
+.font-size 
+    label
+        width 20px
+        height 25px
+        padding 2px 3px
+        background-color transparent
+        &.small
+            font-size 12px
+        &.medium
+            font-size 15px
+        &.large
+            font-size 18px
+    &>input:checked + label
         border 1px solid black
-.color-shema button
-    font-size 22px
-    width 30px
-    height 30px
-    &.black
-        background-color black
-        color white
+
+.color-theme
+    label
+        font-size 22px
+        width 30px
+        display inline-block
+        text-align center
+        height 30px
+        &.black
+            background-color black
+            color white
+            // &:hover
+            //     border 1px solid white
+
+        &.white
+            background-color white
+            color black
+            // &:hover
+            //     border 1px solid black
+
+        &.blue
+            background-color #9dd1ff
+            color #063462
+            // &:hover
+            //     border 1px solid #063462
         &:hover
-            border 1px solid white
-        &.active
-            border-radius 30px
-    &.white
-        background-color white
-        color black
+            border-top-left-radius: 12px;
+    input:checked + label 
+        border-radius 30px
         &:hover
-            border 1px solid black
-        &.active
-            border-radius 30px
-    &.blue
-        background-color #9dd1ff
-        color #063462
-        &:hover
-            border 1px solid #063462
-        &.active
-            border-radius 30px
+            border-top-left-radius: 0px;
     

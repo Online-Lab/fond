@@ -478,7 +478,8 @@ angular.module('fond', ['ngAnimate',
   .controller('AppCtrl',  function($scope, getJson, $rootScope){
     $scope.news = getJson;
     $rootScope.sandBlindVer = false;
-    $scope.col1 = true;
+    $rootScope.fontSize = 'medium';
+    $rootScope.colorTheme = 'white';
 
   })
 
