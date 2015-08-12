@@ -3,7 +3,7 @@
     display block
     .row
         display flex
-        flex-flow row no-wrap
+        flex-flow row wrap
         justify-content space-between
     .inp-wrap
         display inline-block
@@ -19,19 +19,20 @@
             height 37px
             border 2px solid #d0d2d1
             border-radius 6px
+            font-size 1.5em
         textarea
             height 66px
         span
             margin-bottom 8px
             display inline-block
-            font-size 14px
+            font-size 1.4em
             white-space no-wrap
             &:after
                 content "*:"
 
     .form-desk
-        font-size 14px
-        line-height 14px
+        font-size 1.4em
+        line-height 1.4em
         color #3b5e63
         padding 20px 0 
 
@@ -43,3 +44,25 @@
         border 0
         color #fff
         padding 10px 0
+        font-size 1.4em
+        
+
+
+
+.sand-blind
+    .application,
+    .ask-question
+        .inp-wrap
+            display inline-block
+            width 48%
+    &.col1
+        .application,
+        .ask-question
+            color black
+            input, textarea
+                background-color #fff
+                border 2px solid black
+                border-radius 0
+            input[type = "submit"]
+                background-color black
+                color white
