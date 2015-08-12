@@ -88,6 +88,8 @@ body
         width 30%
         cursor pointer
         margin-bottom 20px
+        span
+            display none
     a
         display inline-block
         width 100%
@@ -96,3 +98,24 @@ body
         img
             width 100%
             cursor pointer
+            
+
+
+
+.sand-blind
+    .partner-list
+        li
+            text-align center
+            
+            span
+                display inline-block
+                font-size 1.6em
+                text-align center
+                &:hover
+                    text-decoration underline
+            img
+                display none
+            
+    &.col1
+        .partner-list li a span
+            color black

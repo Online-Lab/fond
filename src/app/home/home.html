@@ -33,6 +33,7 @@
     <li ng-repeat = "bank in  (banks | limitTo: showAll?20:6)">
         <a ng-href = "{{bank.link}}">
             <img ng-src="../../assets/images/banks/{{bank.img}}" alt="">
+            <span ng-bind = "bank.name"></span>
         </a>
     </li>
 </ul>
