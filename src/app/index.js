@@ -200,136 +200,215 @@ angular.module('fond', ['ngAnimate',
         controller: 'ProjectsCtrl'
       })
 
-      .state('dis1', {
-        url: '/dis1',
-        templateUrl: 'app/projects/byRegion/dis1.html',
-        ncyBreadcrumb: {
-          parent: 'projects',
-          label: 'Бондарский район'
-        },
-        controller: 'ProjectsCtrl'
-      })
-
-      .state('dis2', {
-        url: '/dis2',
-        templateUrl: 'app/projects/byRegion/dis2.html',
-        ncyBreadcrumb: {
-          parent: 'projects',
-          label: 'Гавриловский район'
-        },
-        controller: 'ProjectsCtrl'
-      })
-
-      .state('dis4', {
-        url: '/dis4',
-        templateUrl: 'app/projects/byRegion/dis4.html',
-        ncyBreadcrumb: {
-          parent: 'projects',
-          label: 'Знаменский район'
-        },
-        controller: 'ProjectsCtrl'
-      })
-
-      .state('dis5', {
-        url: '/dis5',
-        templateUrl: 'app/projects/byRegion/dis5.html',
-        ncyBreadcrumb: {
-          parent: 'projects',
-          label: 'Инжавинский район'
-        },
-        controller: 'ProjectsCtrl'
-      })
-
-      .state('dis6', {
-        url: '/dis6',
-        templateUrl: 'app/projects/byRegion/dis6.html',
-        ncyBreadcrumb: {
-          parent: 'projects',
-          label: 'Кирсановский район'
-        },
-        controller: 'ProjectsCtrl'
-      })
 
 
-      .state('dis7', {
-        url: '/dis7',
-        templateUrl: 'app/projects/byRegion/dis7.html',
-        ncyBreadcrumb: {
-          parent: 'projects',
-          label: 'Мичуринский район'
-        },
-        controller: 'ProjectsCtrl'
-      })
 
-      .state('dis8', {
-        url: '/dis8',
-        templateUrl: 'app/projects/byRegion/dis8.html',
-        ncyBreadcrumb: {
-          parent: 'projects',
-          label: 'Мордовский район'
-        },
-        controller: 'ProjectsCtrl'
-      })
 
-      .state('dis9', {
-        url: '/dis9',
-        templateUrl: 'app/projects/byRegion/dis9.html',
-        ncyBreadcrumb: {
-          parent: 'projects',
-          label: 'Моршанский район'
-        },
-        controller: 'ProjectsCtrl'
-      })
 
-      .state('dis10', {
-        url: '/dis10',
-        templateUrl: 'app/projects/byRegion/dis10.html',
-        ncyBreadcrumb: {
-          parent: 'projects',
-          label: 'Мучкапский район'
-        },
-        controller: 'ProjectsCtrl'
-      })
 
-      .state('dis11', {
-        url: '/dis11',
-        templateUrl: 'app/projects/byRegion/dis11.html',
-        ncyBreadcrumb: {
-          parent: 'projects',
-          label: 'Никифоровский район'
-        },
-        controller: 'ProjectsCtrl'
-      })
 
-      .state('dis12', {
-        url: '/dis12',
-        templateUrl: 'app/projects/byRegion/dis12.html',
-        ncyBreadcrumb: {
-          parent: 'projects',
-          label: 'Первомайский район'
-        },
-        controller: 'ProjectsCtrl'
-      })
 
-      .state('dis13', {
-        url: '/dis13',
-        templateUrl: 'app/projects/byRegion/dis13.html',
-        ncyBreadcrumb: {
-          parent: 'projects',
-          label: 'Петровский район'
-        },
-        controller: 'ProjectsCtrl'
-      })
 
-      .state('dis14', {
-        url: '/dis14',
-        templateUrl: 'app/projects/byRegion/dis14.html',
-        ncyBreadcrumb: {
-          parent: 'projects',
-          label: 'Пичаевский район'
-        },
-        controller: 'ProjectsCtrl'
-      })
+
+        .state('dis1', {
+          url: '/dis1',
+          templateUrl: 'app/projects/byRegion/dis1.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Бондарский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis2', {
+          url: '/dis2',
+          templateUrl: 'app/projects/byRegion/dis2.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Гавриловский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis4', {
+          url: '/dis4',
+          templateUrl: 'app/projects/byRegion/dis4.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Знаменский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis5', {
+          url: '/dis5',
+          templateUrl: 'app/projects/byRegion/dis5.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Инжавинский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis6', {
+          url: '/dis6',
+          templateUrl: 'app/projects/byRegion/dis6.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Кирсановский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+
+        .state('dis7', {
+          url: '/dis7',
+          templateUrl: 'app/projects/byRegion/dis7.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Мичуринский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis8', {
+          url: '/dis8',
+          templateUrl: 'app/projects/byRegion/dis8.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Мордовский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis9', {
+          url: '/dis9',
+          templateUrl: 'app/projects/byRegion/dis9.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Моршанский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis10', {
+          url: '/dis10',
+          templateUrl: 'app/projects/byRegion/dis10.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Мучкапский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis11', {
+          url: '/dis11',
+          templateUrl: 'app/projects/byRegion/dis11.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Никифоровский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis12', {
+          url: '/dis12',
+          templateUrl: 'app/projects/byRegion/dis12.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Первомайский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis13', {
+          url: '/dis13',
+          templateUrl: 'app/projects/byRegion/dis13.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Петровский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis14', {
+          url: '/dis14',
+          templateUrl: 'app/projects/byRegion/dis14.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Пичаевский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis15', {
+          url: '/dis15',
+          templateUrl: 'app/projects/byRegion/dis15.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Рассказовский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis16', {
+          url: '/dis16',
+          templateUrl: 'app/projects/byRegion/dis16.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Ржаксинский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis17', {
+          url: '/dis17',
+          templateUrl: 'app/projects/byRegion/dis17.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Сампурский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis18', {
+          url: '/dis18',
+          templateUrl: 'app/projects/byRegion/dis18.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Сосновский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis19', {
+          url: '/dis19',
+          templateUrl: 'app/projects/byRegion/dis19.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Староюрьевский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+
+        .state('dis20', {
+          url: '/dis20',
+          templateUrl: 'app/projects/byRegion/dis20.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Тамбовский  район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+
+
+
+
+
+
+
 
       .state('tasks', {
         url: '/tasks',
