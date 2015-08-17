@@ -397,7 +397,17 @@ angular.module('fond', ['ngAnimate',
           templateUrl: 'app/projects/byRegion/dis20.html',
           ncyBreadcrumb: {
             parent: 'projects',
-            label: 'Тамбовский  район'
+            label: 'Тамбовский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis21', {
+          url: '/dis21',
+          templateUrl: 'app/projects/byRegion/dis21.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Токаревский район'
           },
           controller: 'ProjectsCtrl'
         })
