@@ -44,40 +44,37 @@ angular.module('fond', ['ngAnimate',
   )
 
   .factory('utils', function(){
-    return {
-      findById: function findById(a, id){
-        for(var i = 0; i<a.length; i++){
-          if(a[i].id == id) return a[i];
+      return {
+        findById: function findById(a, id){
+          for(var i = 0; i<a.length; i++){
+            if(a[i].id == id) return a[i];
+          }
+          return null;
         }
-        return null;
-      }
-    };
-  })
+      };
+    })
 
 
 
-  .factory('getJson', ['$http', 'utils', function ($http, utils){
-    var path = 'db.json',
-        getJson = $http.get(path)
-                        .then(function (resp){
-                          return resp.data;
-                        });
-    var factory = {};
-    factory.all = function(){
-      return getJson;
-    };
+    .factory('getJson', ['$http', 'utils', function ($http, utils){
+      var path = 'db.json',
+          getJson = $http.get(path)
+                          .then(function (resp){
+                            return resp.data;
+                          });
+      var factory = {};
+      factory.all = function(){
+        return getJson;
+      };
 
-    factory.get = function(id){
-      return getJson.then(function(){
-        return utils.findById(getJson, id);
-      });
-    };
+      factory.get = function(id){
+        return getJson.then(function(){
+          return utils.findById(getJson, id);
+        });
+      };
 
-    return factory;
-  }])
-
-
-
+      return factory;
+    }])
 
   .config(function ($stateProvider, $urlRouterProvider) {
 
@@ -412,6 +409,25 @@ angular.module('fond', ['ngAnimate',
           controller: 'ProjectsCtrl'
         })
 
+        .state('dis22', {
+          url: '/dis22',
+          templateUrl: 'app/projects/byRegion/dis22.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Уваровский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis23', {
+          url: '/dis23',
+          templateUrl: 'app/projects/byRegion/dis23.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'Умётский район'
+          },
+          controller: 'ProjectsCtrl'
+        })
 
 
 
