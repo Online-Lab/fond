@@ -429,6 +429,56 @@ angular.module('fond', ['ngAnimate',
           controller: 'ProjectsCtrl'
         })
 
+        .state('dis24', {
+          url: '/dis24',
+          templateUrl: 'app/projects/byRegion/dis24.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'г. Кирсанов'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis25', {
+          url: '/dis25',
+          templateUrl: 'app/projects/byRegion/dis25.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'г. Котовск'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis26', {
+          url: '/dis26',
+          templateUrl: 'app/projects/byRegion/dis26.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'г. Мичуринск'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis27', {
+          url: '/dis27',
+          templateUrl: 'app/projects/byRegion/dis27.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'г. Рассказово'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
+        .state('dis28', {
+          url: '/dis28',
+          templateUrl: 'app/projects/byRegion/dis28.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'г. Уварово'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
 
 
 
