@@ -90,6 +90,13 @@
 
   "news": [
     {
+      "id":"13",
+      "time": "01.09.2015",
+      "img": "../../assets/images/news/01.09.2015-1.jpg",
+      "desc": "Технологии успеха – молодежи!",
+      "article": "app/components/news/news01-09-2015.html"
+    },
+    {
       "id":"12",
       "time": "30.07.2015",
       "img": "../../assets/images/news/30.07.15-1.jpg",
