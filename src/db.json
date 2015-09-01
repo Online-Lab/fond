@@ -91,10 +91,10 @@
   "news": [
     {
       "id":"13",
-      "time": "01.09.2015",
-      "img": "../../assets/images/news/01.09.2015-1.jpg",
+      "time": "24.08.2015",
+      "img": "../../assets/images/news/24.08.2015-1.jpg",
       "desc": "Технологии успеха – молодежи!",
-      "article": "app/components/news/news01-09-2015.html"
+      "article": "app/components/news/news24-08-2015.html"
     },
     {
       "id":"12",
