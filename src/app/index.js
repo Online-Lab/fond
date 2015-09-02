@@ -479,6 +479,16 @@ angular.module('fond', ['ngAnimate',
           controller: 'ProjectsCtrl'
         })
 
+        .state('dis29', {
+          url: '/dis29',
+          templateUrl: 'app/projects/byRegion/dis29.html',
+          ncyBreadcrumb: {
+            parent: 'projects',
+            label: 'г. Тамбов'
+          },
+          controller: 'ProjectsCtrl'
+        })
+
 
 
 
