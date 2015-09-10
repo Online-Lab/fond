@@ -90,6 +90,13 @@
 
   "news": [
     {
+      "id":"14",
+      "time": "04.09.2015",
+      "img": "../../assets/images/news/04.09.2015-1.jpg",
+      "desc": "В Мичуринске прошел День садовода!",
+      "article": "app/components/news/news04-09-2015.html"
+    },
+    {
       "id":"13",
       "time": "24.08.2015",
       "img": "../../assets/images/news/24.08.2015-1.jpg",
