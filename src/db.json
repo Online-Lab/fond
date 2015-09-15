@@ -90,11 +90,18 @@
 
   "news": [
     {
-      "id":"14",
+      "id":"15",
       "time": "04.09.2015",
       "img": "../../assets/images/news/04.09.2015-1.jpg",
       "desc": "В Мичуринске прошел День садовода!",
       "article": "app/components/news/news04-09-2015.html"
+    },
+    {
+      "id":"14",
+      "time": "03.09.2015",
+      "img": "../../assets/images/news/03.09.2015-1.jpg",
+      "desc": "Проблемы привлечения инвестиций и кредитование",
+      "article": "app/components/news/news03-09-2015.html"
     },
     {
       "id":"13",
