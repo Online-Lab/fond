@@ -90,6 +90,13 @@
 
   "news": [
     {
+      "id":"16",
+      "time": "12.10.2015",
+      "img": "../../assets/images/news/12.10.2015.png",
+      "desc": "Подтвержден рейтинг Гарантийного фонда Тамбовской обл. на уровне А+",
+      "article": "app/components/news/news12-10-2015.html"
+    },
+    {
       "id":"15",
       "time": "04.09.2015",
       "img": "../../assets/images/news/04.09.2015-1.jpg",
