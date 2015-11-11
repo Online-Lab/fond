@@ -90,6 +90,13 @@
 
   "news": [
     {
+      "id":"17",
+      "time": "10.11.2015",
+      "img": "../../assets/images/banner_news_1011.jpg",
+      "desc": "Подведены итоги конкурса по отбору кредитных организаций на размещение средств Фонда в депозиты.",
+      "article": "app/components/news/news10-11-2015.html"
+    },
+    {
       "id":"16",
       "time": "12.10.2015",
       "img": "../../assets/images/news/12.10.2015.png",
