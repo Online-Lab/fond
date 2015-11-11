@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "bower": "*",
+    "bufferutil": "^1.2.1",
     "express": "*",
     "gulp": "^3.9.0",
     "wrench": "~1.5.8"
