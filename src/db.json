@@ -155,14 +155,14 @@
     {
       "id":"8",
       "time": "15.07.2015 13:05",
-      "img": "http://old.fsc-tambov.ru/images/doc/novosti/apk.jpeg",
+      "img": "http://fsc-tambov.online-lab.ru/images/doc/novosti/apk.jpeg",
       "desc": "В 2015 году максимальный объём гарантийной поддержки Агентством кредитных гарантий в сфере АПК был оказан субъектам МСП  Тамбовской области",
       "article": "app/components/news/news15-07-2015.html"
     },
     {
       "id":"7",
       "time": "06.07.2015 14:09",
-      "img": "http://old.fsc-tambov.ru/images/doc/novosti/brifing.jpeg",
+      "img": "http://fsc-tambov.online-lab.ru/images/doc/novosti/brifing.jpeg",
       "desc": "Информация о деятельности Фонда в 1-м полугодии 2015 г.",
       "article": "app/components/news/news06-07-2015.html"
     },
