@@ -90,6 +90,13 @@
 
   "news": [
     {
+      "id":"20",
+      "time": "24.11.2015",
+      "img": "http://www.vmo39.spb.ru/_files/mfc_logo.png",
+      "desc": "АО «Федеральная корпорация по развитию МСП» сможет предоставлять услуги через МФЦ",
+      "article": "app/components/news/news24-11-2015.html"
+    },
+    {
       "id":"19",
       "time": "12.11.2015",
       "img": "http://www.tvsme.ru/img/slides/01.jpg",
