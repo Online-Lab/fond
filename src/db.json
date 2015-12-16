@@ -12,6 +12,11 @@
       "name": "РоссельхозБанк"
     },
     {
+      "img": "akg.jpg",
+      "link": "http://www.acgrf.ru/",
+      "name": "Агенстсво кредитных гарантий"
+    },
+    {
       "img": "mosobl.png",
       "link": "http://www.mosoblbank.ru/",
       "name": "МособлБанк"
@@ -89,6 +94,20 @@
   ],
 
   "news": [
+    {
+      "id":"22",
+      "time": "14.12.2015",
+      "img": "http://www.b-port.com/mediafiles/items/2015/12/167343/56ca663a3b8e5811618e71ec4fb1eb8f_XL.jpg",
+      "desc": "Банк России сохранил ключевую ставку на уровне 11,00% годовых",
+      "article": "app/components/news/news14-12-2015.html"
+    },
+    {
+      "id":"21",
+      "time": "10.12.2015",
+      "img": "http://www.garant.ru/files/9/7/675679/pravitelstvo-rf-reshilo-s-1-yanvarya-2016-goda-vmesto-stavki-refinansirovaniya-primenyat-klyuchevuyu-stavku-200.jpg",
+      "desc": "О применении с 1 января 2016 года ключевой ставки Банка России",
+      "article": "app/components/news/news10-12-2015.html"
+    },
     {
       "id":"20",
       "time": "24.11.2015",

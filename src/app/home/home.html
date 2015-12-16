@@ -13,12 +13,12 @@
     </ul>
 </div>
 <div class="content-title">
-    <h1>Новости</h1>
+    <h1>Последние Новости</h1>
     <a href="" ui-sref = "news">Все новости</a>
 </div>
 
 <div class="news-list-wrap">
-    <div class="news" ng-repeat = "n in news">
+    <div class="news" ng-repeat = "(ind, n) in news" ng-if="ind < 8">
         <time ng-bind = "n.time"></time>
         <figure>
             <div class="img-wrap">
