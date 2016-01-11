@@ -95,6 +95,13 @@
 
   "news": [
     {
+      "id":"24",
+      "time": "29.12.2015",
+      "img": "http://garantfond92.ru/wp-content/uploads/2015/10/temp.jpg",
+      "desc": "Подведены итоги конкурса по отбору кредитных организаций на размещение средств Фонда в депозиты.",
+      "article": "app/components/news/news29-12-2015.html"
+    },
+    {
       "id":"23",
       "time": "23.12.2015",
       "img": "http://www.решение-верное.рф/sites/default/files/minec.jpg",
