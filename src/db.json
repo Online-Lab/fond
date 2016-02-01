@@ -95,11 +95,53 @@
 
   "news": [
     {
-      "id":"24",
+      "id":"30",
+      "time": "28.01.2016",
+      "img": "https://cdn.vedomosti.ru/image/2016/s/1fl88/default-1uv.jpg",
+      "desc": "Антикризисный план предполагает поддержку малого и среднего бизнеса, а не банков",
+      "article": "app/components/news/news28-01-2016.html"
+    },
+    {
+      "id":"29",
+      "time": "22.01.2016",
+      "img": "http://creative.allmedia.ru/arc/300x225/photo_60419_%7BE33C6718-427F-48E5-8820-1B90D9ACAAA2%7D.jpg",
+      "desc": "Внесены изменения в условия конкурсного отбора субъектов РФ на субсидирование МСП",
+      "article": "app/components/news/news22-01-2016.html"
+    },
+    {
+      "id":"28",
+      "time": "20.01.2016",
+      "img": "http://economy.gov.ru/wps/wcm/connect/79c45528-0254-4e5f-8013-c9499b416630/1/image-19-01-16-11-28-6.jpeg?MOD=AJPERES&CACHEID=79c45528-0254-4e5f-8013-c9499b416630/1",
+      "desc": "Олег Фомичев: Работа над Стратегией МСП перешла в новую фазу",
+      "article": "app/components/news/news20-01-2016.html"
+    },
+    {
+      "id":"27",
+      "time": "30.12.2015",
+      "img": "http://www.eastrussia.ru/upload/resize_cache/iblock/347/763_428_2/%D1%80%D0%BE%D1%81%D1%81%D1%82%D0%B0%D1%822.jpg",
+      "desc": "Минэкономразвития проведет масштабную бизнес-перепись",
+      "article": "app/components/news/news30-12-2015.html"
+    },
+    {
+      "id":"26",
       "time": "29.12.2015",
       "img": "http://garantfond92.ru/wp-content/uploads/2015/10/temp.jpg",
       "desc": "Подведены итоги конкурса по отбору кредитных организаций на размещение средств Фонда в депозиты.",
       "article": "app/components/news/news29-12-2015.html"
+    },
+    {
+      "id":"25",
+      "time": "28.12.2014",
+      "img": "http://regnum.ru/uploads/pictures/news/2015/12/28/regnum_picture_1451301383430821_big.jpg",
+      "desc": "Уставной капитал Корпорации МСП будет увеличен на 30 млрд. рублей",
+      "article": "app/components/news/news28-12-2015.html"
+    },
+    {
+      "id":"24",
+      "time": "24.12.2015",
+      "img": "http://cdn11.img22.ria.ru/images/99706/75/997067597.jpg",
+      "desc": "Госдума приняла закон о создании реестра субъектов МСП",
+      "article": "app/components/news/news24-12-2015.html"
     },
     {
       "id":"23",
