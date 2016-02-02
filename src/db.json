@@ -95,11 +95,18 @@
 
   "news": [
     {
-      "id":"30",
+      "id":"31",
       "time": "28.01.2016",
-      "img": "https://cdn.vedomosti.ru/image/2016/s/1fl88/default-1uv.jpg",
+      "img": "https://visioningsystems.files.wordpress.com/2014/11/learning_consultants.jpg",
       "desc": "Антикризисный план предполагает поддержку малого и среднего бизнеса, а не банков",
       "article": "app/components/news/news28-01-2016.html"
+    },
+    {
+      "id":"30",
+      "time": "27.01.2016",
+      "img": "https://s3.eu-central-1.amazonaws.com/fsc-tambov/images/27.01.16.jpg",
+      "desc": "Малый бизнес – Национальная идея?",
+      "article": "app/components/news/news27-01-2016.html"
     },
     {
       "id":"29",
@@ -111,7 +118,7 @@
     {
       "id":"28",
       "time": "20.01.2016",
-      "img": "http://economy.gov.ru/wps/wcm/connect/79c45528-0254-4e5f-8013-c9499b416630/1/image-19-01-16-11-28-6.jpeg?MOD=AJPERES&CACHEID=79c45528-0254-4e5f-8013-c9499b416630/1",
+      "img": "http://polit.ru/media/photolib/2015/01/26/thumbs/1eb0a0c2d3ed2aab2b5e6dd1d0582073_1453206562.jpg.600x450_q85.jpg",
       "desc": "Олег Фомичев: Работа над Стратегией МСП перешла в новую фазу",
       "article": "app/components/news/news20-01-2016.html"
     },
