@@ -95,6 +95,41 @@
 
   "news": [
     {
+      "id":"36",
+      "time": "08.02.2016",
+      "img": "https://s3.eu-central-1.amazonaws.com/fsc-tambov/images/08.02.2016.jpg",
+      "desc": "Государственная поддержка модернизации аграрного производства и устойчивого развития сельских территорий",
+      "article": "app/components/news/news08-02-2016.html"
+    },
+    {
+      "id":"35",
+      "time": "04.02.2016",
+      "img": "http://creative.allmedia.ru/arc/300x225/photo_61122_%7BE05B3648-3A33-41FA-850E-1487A1BDC9F3%7D.jpg",
+      "desc": "Минэкономразвития внесло в Правительство доработанный проект стратегии развития МСП до 2030 года",
+      "article": "app/components/news/news04-02-2016.html"
+    },
+    {
+      "id":"34",
+      "time": "03.02.2016",
+      "img": "https://s3.eu-central-1.amazonaws.com/fsc-tambov/images/03.02.2016.jpg",
+      "desc": "Олег Фомичев: Малый бизнес сумел выстоять в кризисное время",
+      "article": "app/components/news/news03-02-2016.html"
+    },
+    {
+      "id":"33",
+      "time": "03.02.2016",
+      "img": "http://www.acgrf.ru/upload/resize_cache/iblock/f60/300_230_1/%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80.jpg",
+      "desc": "Корпорация МСП приступает к проведению исследований спроса и потребления товаров и услуг в регионах в рамках создания Маркетингового навигатора МСП",
+      "article": "app/components/news/news03-02-2016-0.html"
+    },
+    {
+      "id":"32",
+      "time": "02.02.2016",
+      "img": "http://www.acgrf.ru/upload/resize_cache/iblock/7ce/300_230_1/786546574.jpg",
+      "desc": "Корпорация МСП активно ведет работу по заключению соглашений о взаимодействии с региональными многофункциональными центрами",
+      "article": "app/components/news/news02-02-2016.html"
+    },
+    {
       "id":"31",
       "time": "28.01.2016",
       "img": "https://visioningsystems.files.wordpress.com/2014/11/learning_consultants.jpg",
