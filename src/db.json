@@ -95,6 +95,13 @@
 
   "news": [
     {
+      "id":"37",
+      "time": "12.02.2016",
+      "img": "http://bfmufa.ru/files/2013/10/startup_221013.jpg",
+      "desc": "Брифинг на тему поддержки малого и среднего бизнеса",
+      "article": "app/components/news/news12-02-2016.html"
+    },
+    {
       "id":"36",
       "time": "08.02.2016",
       "img": "https://s3.eu-central-1.amazonaws.com/fsc-tambov/images/08.02.2016.jpg",
