@@ -95,6 +95,20 @@
 
   "news": [
     {
+      "id":"39",
+      "time": "10.03.2016",
+      "img": "http://creative.allmedia.ru/arc/300x225/photo_60582_%7B4274D4EA-8B7B-43BF-A973-6544B6EB2B1C%7D.jpg",
+      "desc": "О распределении субсидий субъектам Федерации на софинансирование капитальных вложений в объекты госсобственности, предназначенные для развития малого и среднего предпринимательства",
+      "article": "app/components/news/news10-03-2016-1.html"
+    },
+    {
+      "id":"38",
+      "time": "10.03.2016",
+      "img": "http://mynewsonline24.ru/uploads/posts/2016-03/1457589612_rukovodstvo-raspredelilo-subsi.jpg",
+      "desc": "О распределении субсидий субъектам Федерации на государственную поддержку малого и среднего предпринимательства",
+      "article": "app/components/news/news10-03-2016.html"
+    },
+    {
       "id":"37",
       "time": "12.02.2016",
       "img": "http://bfmufa.ru/files/2013/10/startup_221013.jpg",
