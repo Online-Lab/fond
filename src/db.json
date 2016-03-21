@@ -95,6 +95,13 @@
 
   "news": [
     {
+      "id":"40",
+      "time": "18.03.2016",
+      "img": "http://iltumen.ru/sites/default/files/imagecache/w400/img_news/1_488.jpg",
+      "desc": "Банк России сохранил ключевую ставку на уровне 11,00% годовых",
+      "article": "app/components/news/news18-03-2016.html"
+    },
+    {
       "id":"39",
       "time": "10.03.2016",
       "img": "http://creative.allmedia.ru/arc/300x225/photo_60582_%7B4274D4EA-8B7B-43BF-A973-6544B6EB2B1C%7D.jpg",
