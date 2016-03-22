@@ -95,6 +95,13 @@
 
   "news": [
     {
+      "id":"41",
+      "time": "18.03.2016",
+      "img": "http://volbusiness.ru/assets/images/news/22.03.2016/business_101013.jpg",
+      "desc": "О мерах по расширению участия субъектов малого и среднего предпринимательства в государственных закупках",
+      "article": "app/components/news/news18-03-2016-1.html"
+    },
+    {
       "id":"40",
       "time": "18.03.2016",
       "img": "http://iltumen.ru/sites/default/files/imagecache/w400/img_news/1_488.jpg",
