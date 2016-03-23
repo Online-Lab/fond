@@ -6,6 +6,7 @@
     "bufferutil": "^1.2.1",
     "express": "*",
     "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.2.0",
     "gulp-util": "^3.0.7",
     "wrench": "~1.5.8"
   },
