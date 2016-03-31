@@ -95,6 +95,13 @@
 
   "news": [
     {
+      "id":"42",
+      "time": "31.03.2016",
+      "img": "http://academy21.ru/uploads/posts/2016-03/1459163621_image108176145.jpg",
+      "desc": "Подведены итоги конкурса по отбору кредитных организаций на размещение средств Фонда в депозиты.",
+      "article": "app/components/news/news31-03-2016.html"
+    },
+    {
       "id":"41",
       "time": "18.03.2016",
       "img": "http://volbusiness.ru/assets/images/news/22.03.2016/business_101013.jpg",
