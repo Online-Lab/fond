@@ -95,6 +95,13 @@
 
   "news": [
     {
+      "id": "47",
+      "time": "10.05.2016",
+      "img": "../../assets/images/news/10.05.2016-3.jpg",
+      "desc": "Подведены итоги конкурса по отбору кредитных организаций",
+      "article": "app/components/news/news10-05-2016-1.html"
+    },
+    {
       "id": "46",
       "time": "10.05.2016",
       "img": "../../assets/images/news/10.05.2016-1.jpg",
