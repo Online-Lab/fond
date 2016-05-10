@@ -95,6 +95,13 @@
 
   "news": [
     {
+      "id": "46",
+      "time": "10.05.2016",
+      "img": "../../assets/images/news/10.05.2016-1.jpg",
+      "desc": "Навстречу дню российского предпринимательства!",
+      "article": "app/components/news/news10-05-2016.html"
+    },
+    {
       "id": "45",
       "time": "12.04.2016",
       "img": "https://www.tambov.gov.ru/assets/images/1malyj-biz.jpg",
