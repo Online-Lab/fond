@@ -27,11 +27,6 @@
       "name": "Промсвязьбанк"
     },
     {
-      "img": "ros-avto-bank.png",
-      "link": "http://www.rosavtobank.ru/",
-      "name": "РосавтоБанк"
-    },
-    {
       "img": "noviy-vek.png",
       "link": "http://newbank.ru/",
       "name": "Новый век"
@@ -90,6 +85,16 @@
       "img": "web-lizing.png",
       "link": "http://veb-leasing.ru/",
       "name": "ВЭБ Лизинг"
+    },
+    {
+      "img": "rosgosstrah-bank.png",
+      "link": "http://rgsbank.ru/",
+      "name": "Росгосстрах Банк"
+    },
+    {
+      "img": "fora-bank.gif",
+      "link": "http://www.forabank.ru/",
+      "name": "Фора-банк"
     }
   ],
 
