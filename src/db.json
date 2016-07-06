@@ -100,6 +100,27 @@
 
   "news": [
     {
+      "id": "53",
+      "time": "02.07.2016",
+      "img": "../../assets/images/news/02.07.2016_1.jpg",
+      "desc": "ФНС России переходит на новые коды ОКВЭД при регистрации ЮЛ и ИП",
+      "article": "app/components/news/news02-07-2016_1.html"
+    },
+    {
+      "id": "52",
+      "time": "02.07.2016",
+      "img": "../../assets/images/news/02.07.2016.jpg",
+      "desc": "«День Тамбовского поля – 2016» сельхозпроизводители Тамбовщины отпраздновали в Рассказовском районе",
+      "article": "app/components/news/news02-07-2016.html"
+    },
+    {
+      "id": "51",
+      "time": "01.07.2016",
+      "img": "../../assets/images/news/01.07.2016.png",
+      "desc": "К сведению кредитных организаций",
+      "article": "app/components/news/news01-07-2016.html"
+    },
+    {
       "id": "50",
       "time": "09.06.2016",
       "img": "../../assets/images/news/09.06.2016.png",
