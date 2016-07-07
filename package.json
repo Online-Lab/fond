@@ -12,13 +12,6 @@
     "gulp-util": "^3.0.7",
     "http-proxy": "^1.8.1",
     "wiredep": "^2.2.2",
-    "wrench": "~1.5.8"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "postinstall": "./node_modules/bower/bin/bower install && node node_modules/gulp/bin/gulp.js"
-  },
-  "devDependencies": {
     "bower": "*",
     "browser-sync": "~2.1.4",
     "browser-sync-spa": "~1.0.2",
@@ -62,8 +55,15 @@
     "protractor": "~1.7.0",
     "require-dir": "~0.1.0",
     "uglify-save-license": "~0.4.1",
-    "wiredep": "~2.2.0"
+    "wiredep": "~2.2.0",
+    "wrench": "~1.5.8"
   },
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "./node_modules/bower/bin/bower install && node node_modules/gulp/bin/gulp.js"
+  },
+  "devDependencies": {
+ },
   "engines": {
     "node": "~0.10.0"
   }
