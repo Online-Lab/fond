@@ -100,25 +100,39 @@
 
   "news": [
     {
-      "id": "53",
+      "id": "55",
+      "time": "19.07.2016",
+      "img": "http://tambov.izbirkom.ru/etc/20160708g_s.jpg",
+      "desc": "Вниманию предпринимателей Тамбовской области!",
+      "article": "app/components/news/news19-07-2016.html"
+    },
+    {
+      "id": "54",
       "time": "02.07.2016",
       "img": "../../assets/images/news/02.07.2016_1.jpg",
       "desc": "ФНС России переходит на новые коды ОКВЭД при регистрации ЮЛ и ИП",
       "article": "app/components/news/news02-07-2016_1.html"
     },
     {
-      "id": "52",
+      "id": "53",
       "time": "02.07.2016",
       "img": "../../assets/images/news/02.07.2016.jpg",
       "desc": "«День Тамбовского поля – 2016» сельхозпроизводители Тамбовщины отпраздновали в Рассказовском районе",
       "article": "app/components/news/news02-07-2016.html"
     },
     {
-      "id": "51",
+      "id": "52",
       "time": "01.07.2016",
       "img": "../../assets/images/news/01.07.2016.png",
       "desc": "К сведению кредитных организаций",
       "article": "app/components/news/news01-07-2016.html"
+    },
+    {
+      "id": "51",
+      "time": "22.06.2016",
+      "img": "http://minecon.bashkortostan.ru/upload/iblock/d04/logo.jpg",
+      "desc": "Все моногорода России теперь могут рассчитывать на поддержку Фонда развития",
+      "article": "app/components/news/news22-06-2016.html"
     },
     {
       "id": "50",
