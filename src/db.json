@@ -102,7 +102,7 @@
     {
       "id": "55",
       "time": "19.07.2016",
-      "img": "http://tambov.izbirkom.ru/etc/20160708g_s.jpg",
+      "img": "../../assets/images/news/19.07.2016.jpg",
       "desc": "Вниманию предпринимателей Тамбовской области!",
       "article": "app/components/news/news19-07-2016.html"
     },
