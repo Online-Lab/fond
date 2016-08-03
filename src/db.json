@@ -100,6 +100,13 @@
 
   "news": [
     {
+      "id": "57",
+      "time": "29.07.2016",
+      "img": "https://cdn.rt.com/russian/images/2016.07/article/579b35f3c46188a1218b45b1.png",
+      "desc": "Банк России сохранил ключевую ставку на уровне 10,5% годовых",
+      "article": "app/components/news/news29-07-2016.html"
+    }, 
+    {
       "id": "56",
       "time": "21.07.2016",
       "img": "https://cdn.relap.io/OxPeOg/z-/40210/z-2ECw.jpg",
