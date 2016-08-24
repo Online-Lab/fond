@@ -100,9 +100,16 @@
 
   "news": [
     {
+      "id": "58",
+      "time": "05.08.2016",
+      "img": "http://coachguru.ru/wp-content/uploads/2014/06/stol.jpg",
+      "desc": "Фонд существует для того чтобы работал бизнес и достигалась главная цель",
+      "article": "app/components/news/news05-08-2016.html"
+    }, 
+    {
       "id": "57",
       "time": "29.07.2016",
-      "img": "https://cdn.rt.com/russian/images/2016.07/article/579b35f3c46188a1218b45b1.png",
+      "img": "http://img.profi-news.ru/2016/07/29/296914.jpg",
       "desc": "Банк России сохранил ключевую ставку на уровне 10,5% годовых",
       "article": "app/components/news/news29-07-2016.html"
     }, 
