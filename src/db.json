@@ -99,6 +99,13 @@
   ],
 
   "news": [
+    {
+      "id": "68",
+      "time": "24.08.2016",
+      "img": "http://coachguru.ru/wp-content/uploads/2014/06/stol.jpg",
+      "desc": "Круглый стол с предпринимателями Сампурского района.",
+      "article": "app/components/news/news24-08-2016.html"
+    },
      {
       "id": "67",
       "time": "22.08.2016",
