@@ -1,4 +1,4 @@
-For starting project:
+For starting project: 
 
 for load all dependencies
 
