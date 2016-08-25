@@ -99,6 +99,13 @@
   ],
 
   "news": [
+     {
+      "id": "67",
+      "time": "22.08.2016",
+      "img": "http://www.auditdv.ru/userfiles/phg55ba0d540c224.jpg",
+      "desc": "Выездной семинар в Пичаевском и Бондарском районах.",
+      "article": "app/components/news/news22-08-2016.html"
+    },
     {
       "id": "66",
       "time": "19.08.2016",
