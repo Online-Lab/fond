@@ -100,6 +100,13 @@
 
   "news": [
     {
+      "id": "72",
+      "time": "25.08.2016",
+      "img": "/assets/images/banner2.jpg",
+      "desc": "Конкурса по отбору банков в целях заключения соглашения о сотрудничестве по предоставлению поручительств.",
+      "article": "app/components/news/newskonkurs.html"
+    },
+    {
       "id": "71",
       "time": "25.08.2016",
       "img": "/assets/images/news/02news25-08-2016-3.jpg",
