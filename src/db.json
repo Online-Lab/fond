@@ -100,6 +100,27 @@
 
   "news": [
     {
+      "id": "71",
+      "time": "25.08.2016",
+      "img": "/assets/images/news/02news25-08-2016-3.jpg",
+      "desc": "«Совершенствование и развитие рынка микрофинансирования»",
+      "article": "app/components/news/news25-08-2016-3.html"
+    },
+    {
+      "id": "70",
+      "time": "25.08.2016",
+      "img": "/assets/images/news/01news25-08-2016-2.jpg",
+      "desc": "Меры государственной поддержки малого и среднего предпринимательства в современных экономических условиях обсудили в рамках круглого стола в Инжавинском районе.",
+      "article": "app/components/news/news25-08-2016-2.html"
+    },
+    {
+      "id": "69",
+      "time": "25.08.2016",
+      "img": "/assets/images/news/hnews25-08-2016.jpg",
+      "desc": "Предприниматели приглашаются для участия в опросе.",
+      "article": "app/components/news/news25-08-2016.html"
+    },
+    {
       "id": "68",
       "time": "24.08.2016",
       "img": "http://coachguru.ru/wp-content/uploads/2014/06/stol.jpg",
