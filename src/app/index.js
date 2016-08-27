@@ -30,6 +30,7 @@ angular.module('fond', ['ngAnimate',
   'fond.bank-advantages',
   'fond.bank-partnership',
   'fond.limits-guarantees',
+  'fond.fns',
   'components'
 ])
 
@@ -168,6 +169,16 @@ angular.module('fond', ['ngAnimate',
           label: 'Задать вопрос'
         },
         controller: 'AskQuestionCtrl'
+      })
+
+      .state('fns', {
+        url: '/fns',
+        templateUrl: 'app/fns/fns.html',
+        ncyBreadcrumb: {
+          parent: 'home',
+          label: 'ФНС'
+        },
+        controller: 'fnsCtrl'
       })
 
       .state('contacts', {
