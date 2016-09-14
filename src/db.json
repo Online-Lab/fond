@@ -99,6 +99,20 @@
   ],
 
   "news": [
+     {
+      "id": "79",
+      "time": "12.09.2016",
+      "img": "/assets/images/news/01news12-09-2016.jpg",
+      "desc": "С 8 по 10 сентября в Мичуринске прошла XI Всероссийская выставка «День садовода-2016»",
+      "article": "app/components/news/news12-09-2016.html"
+    },
+     {
+      "id": "78",
+      "time": "09.09.2016",
+      "img": "/assets/images/news/01news09-09-2016.jpg",
+      "desc": "Круглый стол с представителями МСП Тамбовского района",
+      "article": "app/components/news/news09-09-2016.html"
+    },
       {
       "id": "77",
       "time": "06.09.2016",
