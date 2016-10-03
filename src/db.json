@@ -100,6 +100,13 @@
 
   "news": [
       {
+      "id": "82",
+      "time": "30.09.2016",
+      "img": "/assets/images/news/01news30-09-2016.jpg",
+      "desc": "ЦБ утвердил перечень системно значимых банков",
+      "article": "app/components/news/news30-09-2016.html"
+    },
+      {
       "id": "81",
       "time": "20.09.2016",
       "img": "/assets/images/news/02news20-09-2016.jpg",
