@@ -95,10 +95,27 @@
       "img": "fora-bank.gif",
       "link": "http://www.forabank.ru/",
       "name": "Фора-банк"
+    },
+    {
+      "img": "openbank.png",
+      "link": "https://www.open.ru/#people",
+      "name": "Банк Открытие"
+    },
+    {
+      "img": "transkap.jpg",
+      "link": "http://www.tkbbank.ru/",
+      "name": "ТрансКапитал Банк"
     }
   ],
 
   "news": [
+    {
+      "id": "83",
+      "time": "04.10.2016",
+      "img": "/assets/images/news/01news04-10-2016.jpg",
+      "desc": "Расширяется спектр финансовых организаций – партнёров Тамбовского областного ГУП «Фонд содействия кредитованию малого и среднего предпринимательства Тамбовской области».",
+      "article": "app/components/news/news04-10-2016.html"
+    },
       {
       "id": "82",
       "time": "30.09.2016",

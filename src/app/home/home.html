@@ -18,13 +18,13 @@
   </p>
   
 </div>
-<!--div class = "main-slider" slick-slider="{slidesToShow: 1, infinite: true, arrows: false, dots: true}">
+<div class = "main-slider" slick-slider="{slidesToShow: 1, infinite: true, arrows: false, dots: true}">
   <div class="slide1">
       <a href="#/application">Подробнее...</a>
-  </div-->
+  </div>
   <!--div class="slide2"></div-->
-<!--/div-->
-<div class="ban">
+</div>
+<!--div class="ban">
   <a href="#/news/72" style="text-decoration: none;"><h1>Объявлен Конкурс по отбору банков в целях заключения соглашения о сотрудничестве по предоставлению поручительств</h1></a>
   <!--<ul style="padding-top: 10px">
     <li><a href="/doc/contest/16.05.2016/Приказ.pdf">ПРИКАЗ</a></li>
@@ -32,7 +32,7 @@
     <li><a href="/doc/contest/16.05.2016/3-комиссия.doc">КОМИССИЯ</a></li>
     <li><a href="/doc/contest/16.05.2016/4-положение.doc">ПОЛОЖЕНИЕ</a></li>
   </ul>-->
-</div>
+<!--/div-->
 <div class="content-title">
     <h1>Последние Новости</h1>
     <a href="" ui-sref = "news">Все новости</a>
@@ -60,7 +60,7 @@
 </div>
 
 <ul class="partner-list">
-    <li ng-repeat = "bank in  (banks | limitTo: showAll?20:6)">
+    <li ng-repeat = "bank in  (banks | limitTo: showAll?21:6)">
         <a ng-href = "{{bank.link}}">
             <img ng-src="../../assets/images/banks/{{bank.img}}" alt="">
             <span ng-bind = "bank.name"></span>
