@@ -110,6 +110,13 @@
 
   "news": [
      {
+      "id": "86",
+      "time": "12.10.2016",
+      "img": "http://select.by/images/banks/vtb-bank.by.gif",
+      "desc": "Банк-партнёр Фонда – Банк ВТБ запускает акцию по рефинансированию кредитов для малого бизнеса &#34;Умный Малый&#34;.",
+      "article": "app/components/news/news12-10-2016.html"
+    },
+     {
       "id": "85",
       "time": "07.10.2016",
       "img": "/assets/images/news/01news07-10-2016.jpg",
