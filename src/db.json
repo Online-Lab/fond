@@ -110,6 +110,13 @@
 
   "news": [
     {
+      "id": "89",
+      "time": "28.10.2016",
+      "img": "http://c.izvestiacontent.ru/media/3/news/2013/01/544076/Snimok_ekrana_2013-01-31_v_16.56.50.png",
+      "desc": "Банк России принял решение сохранить ключевую ставку на уровне 10,00% годовых.",
+      "article": "app/components/news/news28-10-2016.html"
+    },
+    {
       "id": "88",
       "time": "26.10.2016",
       "img": "/assets/images/news/01news26-10-2016.jpg",
