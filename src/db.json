@@ -110,6 +110,13 @@
 
   "news": [
     {
+      "id": "90",
+      "time": "10.11.2016",
+      "img": "http://smp-partner.ru/images/tops.png",
+      "desc": "VII  Международный Форум молодых предпринимателей в Ярославской области.",
+      "article": "app/components/news/news10-11-2016.html"
+    },
+    {
       "id": "89",
       "time": "28.10.2016",
       "img": "http://c.izvestiacontent.ru/media/3/news/2013/01/544076/Snimok_ekrana_2013-01-31_v_16.56.50.png",
