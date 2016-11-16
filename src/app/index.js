@@ -31,6 +31,7 @@ angular.module('fond', ['ngAnimate',
   'fond.bank-partnership',
   'fond.limits-guarantees',
   'fond.fns',
+  'fond.case',
   'components'
 ])
 
@@ -179,6 +180,16 @@ angular.module('fond', ['ngAnimate',
           label: 'ФНС'
         },
         controller: 'fnsCtrl'
+      })
+
+     .state('case', {
+        url: '/case',
+        templateUrl: 'app/case/case.html',
+        ncyBreadcrumb: {
+          parent: 'home',
+          label: 'Кейсы'
+        },
+        controller: 'CaseCtrl'
       })
 
       .state('contacts', {
