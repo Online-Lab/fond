@@ -110,6 +110,13 @@
 
   "news": [
     {
+      "id": "91",
+      "time": "14.11.2016",
+      "img": "http://fsrmsp33.ru/wp-content/uploads/2016/10/msp-logo_4.jpg",
+      "desc": "Правовые кейсы АО «Корпорация «МСП» для субъектов малого и среднего предпринимательства.",
+      "article": "app/components/news/news14-11-2016.html"
+    },
+    {
       "id": "90",
       "time": "10.11.2016",
       "img": "http://smp-partner.ru/images/tops.png",
