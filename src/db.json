@@ -111,24 +111,24 @@
   "news": [
     {
       "id": "92",
-      "time": "17.11.2016",
-      "img": "http://www.pmservices.ru/wp-content/uploads/2014/11/autsorsing-funkcii-proektnogo-ofisa.jpg",
-      "desc": "Утверждён состав проектного комитета по основному направлению стратегического развития Российской Федерации «Малый бизнес и поддержка индивидуальной предпринимательской инициативы»",
-      "article": "app/components/news/news17-11-2016.html"
-    },
-    {
-      "id": "91",
       "time": "14.11.2016",
       "img": "http://fsrmsp33.ru/wp-content/uploads/2016/10/msp-logo_4.jpg",
       "desc": "Правовые кейсы АО «Корпорация «МСП» для субъектов малого и среднего предпринимательства.",
       "article": "app/components/news/news14-11-2016.html"
     },
     {
-      "id": "90",
+      "id": "91",
       "time": "10.11.2016",
       "img": "http://smp-partner.ru/images/tops.png",
       "desc": "VII  Международный Форум молодых предпринимателей в Ярославской области.",
       "article": "app/components/news/news10-11-2016.html"
+    },  
+    {
+      "id": "90",
+      "time": "08.11.2016",
+      "img": "http://www.pmservices.ru/wp-content/uploads/2014/11/autsorsing-funkcii-proektnogo-ofisa.jpg",
+      "desc": "Утверждён состав проектного комитета по основному направлению стратегического развития Российской Федерации «Малый бизнес и поддержка индивидуальной предпринимательской инициативы»",
+      "article": "app/components/news/news08-11-2016.html"
     },
     {
       "id": "89",
