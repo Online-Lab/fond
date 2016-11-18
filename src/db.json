@@ -110,6 +110,13 @@
 
   "news": [
     {
+      "id": "92",
+      "time": "17.11.2016",
+      "img": "http://www.pmservices.ru/wp-content/uploads/2014/11/autsorsing-funkcii-proektnogo-ofisa.jpg",
+      "desc": "Утверждён состав проектного комитета по основному направлению стратегического развития Российской Федерации «Малый бизнес и поддержка индивидуальной предпринимательской инициативы»",
+      "article": "app/components/news/news17-11-2016.html"
+    },
+    {
       "id": "91",
       "time": "14.11.2016",
       "img": "http://fsrmsp33.ru/wp-content/uploads/2016/10/msp-logo_4.jpg",
