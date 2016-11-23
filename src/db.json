@@ -110,6 +110,13 @@
 
   "news": [
     {
+      "id": "93",
+      "time": "22.11.2016",
+      "img": "http://fsrmsp33.ru/wp-content/uploads/2016/10/msp-logo_4.jpg",
+      "desc": "Средний бизнес прирастет крупным.",
+      "article": "app/components/news/news22-11-2016.html"
+    },
+    {
       "id": "92",
       "time": "14.11.2016",
       "img": "http://fsrmsp33.ru/wp-content/uploads/2016/10/msp-logo_4.jpg",
