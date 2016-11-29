@@ -109,19 +109,40 @@
   ],
 
   "news": [
+     {
+      "id": "97",
+      "time": "25.11.2016",
+      "img": "https://btc-obmenka.com/wp-content/uploads/Forex4you-popolnenie-scheta-cherez-Promsvyazbank.jpg",
+      "desc": "Промсвязьбанк снизил ставки по кредитам до 8,3% для средних компаний и до 9,4% для малого бизнеса.",
+      "article": "app/components/news/news25-11-2016.html"
+    },
     {
-      "id": "94",
+      "id": "96",
       "time": "22.11.2016",
       "img": "http://fsrmsp33.ru/wp-content/uploads/2016/10/msp-logo_4.jpg",
       "desc": "Средний бизнес прирастет крупным.",
       "article": "app/components/news/news22-11-2016.html"
     },
+     {
+      "id": "95",
+      "time": "21.11.2016",
+      "img": "http://government.ru/media/photos/656x369/NhGQlCUHneU98htn1sppoU3k8Ai8rcmA.jpg",
+      "desc": "Заседание президиума Совета при Президенте Российской Федерации по стратегическому развитию и приоритетным проектам.",
+      "article": "app/components/news/news21-11-2016-1.html"
+    },
     {
-      "id": "93",
+      "id": "94",
       "time": "21.11.2016",
       "img": "http://nocredits.ru/wp-content/uploads/2013/05/097889677.jpg",
       "desc": "ВТБ 24 снизил до 9% ставку по кредитам для малого бизнеса в рамках «Программы 6,5»  Корпорации МСП.",
       "article": "app/components/news/news21-11-2016.html"
+    },
+     {
+      "id": "93",
+      "time": "18.11.2016",
+      "img": "/assets/images/news/01news18-11-2016.jpg",
+      "desc": "18 ноября Тамбовский филиал Российского нового университета подвел итоги Всемирной недели предпринимательства GEW – 2016GEW.",
+      "article": "app/components/news/news18-11-2016.html"
     },
     {
       "id": "92",
