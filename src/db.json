@@ -109,12 +109,40 @@
   ],
 
   "news": [
+    {
+      "id": "101",
+      "time": "28.11.2016",
+      "img": "http://nocredits.ru/wp-content/uploads/2013/05/097889677.jpg",
+      "desc": "ВТБ 24 снижает ставки по кредитам для малого бизнеса",
+      "article": "app/components/news/news28-11-2016.html"
+    },
+    {
+      "id": "100",
+      "time": "25.11.2016",
+      "img": "http://kaluga24.tv/wp-content/uploads/2014/02/0220.jpg",
+      "desc": "Регионы РФ с 2017 года будут получать единую субсидию на развитие МСП",
+      "article": "app/components/news/news25-11-2016-2.html"
+    },
      {
-      "id": "97",
+      "id": "99",
       "time": "25.11.2016",
       "img": "https://btc-obmenka.com/wp-content/uploads/Forex4you-popolnenie-scheta-cherez-Promsvyazbank.jpg",
       "desc": "Промсвязьбанк снизил ставки по кредитам до 8,3% для средних компаний и до 9,4% для малого бизнеса.",
       "article": "app/components/news/news25-11-2016.html"
+    },
+     {
+      "id": "98",
+      "time": "24.11.2016",
+      "img": "https://msb.khabkrai.ru/media/news/%D0%A4%D0%BE%D1%82%D0%BE_%D0%BA_%D0%9A%D0%BE%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B8_%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA.jpg",
+      "desc": "VI  Всероссийская конференция «Развитие системы инфраструктуры поддержки субъектов малого и среднего предпринимательства»",
+      "article": "app/components/news/news24-11-2016-2.html"
+    },
+     {
+      "id": "97",
+      "time": "24.11.2016",
+      "img": "http://www.ntm.ru/catalog_img/1300710793.jpg",
+      "desc": "Об определении кодов видов экономической деятельности и кодов услуг, относящихся к бытовым услугам",
+      "article": "app/components/news/news24-11-2016-1.html"
     },
     {
       "id": "96",
