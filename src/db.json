@@ -110,6 +110,13 @@
 
   "news": [
     {
+      "id": "105",
+      "time": "16.12.2016",
+      "img": "http://creditbery.ru/wp-content/uploads/2015/08/bank_rossii.jpg",
+      "desc": "Банк России принял решение сохранить ключевую ставку на уровне 10,00% годовых",
+      "article": "app/components/news/news16-12-2016.html"
+    },
+    {
       "id": "104",
       "time": "07.12.2016",
       "img": "http://www.n71.ru/files/83570/conference.jpg",
