@@ -110,6 +110,13 @@
 
   "news": [
     {
+      "id": "106",
+      "time": "11.01.2017",
+      "img": "http://finkontrol.com/wp-content/uploads/2014/10/vytyag-vypyska.jpg",
+      "desc": "Включение в Единый реестр дает субъектам малого и среднего бизнеса дополнительные преимущества",
+      "article": "app/components/news/news11-01-2017.html"
+    },
+    {
       "id": "105",
       "time": "16.12.2016",
       "img": "http://creditbery.ru/wp-content/uploads/2015/08/bank_rossii.jpg",
