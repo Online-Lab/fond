@@ -110,11 +110,25 @@
 
   "news": [
     {
-      "id": "106",
+      "id": "108",
       "time": "11.01.2017",
       "img": "http://finkontrol.com/wp-content/uploads/2014/10/vytyag-vypyska.jpg",
       "desc": "Включение в Единый реестр дает субъектам малого и среднего бизнеса дополнительные преимущества",
       "article": "app/components/news/news11-01-2017.html"
+    },
+    {
+      "id": "107",
+      "time": "09.01.2017",
+      "img": "http://old.tpp-inform.ru/userdata/2013/1368477057_1.jpg",
+      "desc": "О поддержке малого и среднего предпринимательств.",
+      "article": "app/components/news/news09-01-2017-1.html"
+    },
+    {
+      "id": "106",
+      "time": "09.01.2017",
+      "img": "http://newsbabr.com/n2p/i/2016/12/_09104441_m.jpg",
+      "desc": "Лимит по кредитной программе «Шесть с половиной» на 2017 г. расширен до 100 млрд. руб.",
+      "article": "app/components/news/news09-01-2017.html"
     },
     {
       "id": "105",
