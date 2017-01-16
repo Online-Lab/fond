@@ -1,0 +1,6 @@
+[0113/102719:ERROR:scoped_process_suspend.cc(30)] NtSuspendProcess: Попытка доступа к процессу, выполняющему процедуру завершения.  (0xc000010a)
+[0113/102719:ERROR:process_info.cc(103)] ReadProcessMemory bool __cdecl crashpad::`anonymous-namespace'::ReadStruct<struct crashpad::process_types::PEB<struct crashpad::process_types::internal::Traits64>>(void *,unsigned __int64,struct crashpad::process_types::PEB<struct crashpad::process_types::internal::Traits64> *): Запрос ReadProcessMemory или WriteProcessMemory был выполнен только частично. (0x12B)
+[0113/102719:ERROR:process_info.cc(542)] ReadProcessData failed
+[0113/102719:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7fee73af0c0 of 12 bytes failed: Запрос ReadProcessMemory или WriteProcessMemory был выполнен только частично. (0x12B)
+[0113/102719:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[0113/102719:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
