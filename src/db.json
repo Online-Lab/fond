@@ -110,6 +110,20 @@
 
   "news": [
     {
+      "id": "110",
+      "time": "19.01.2017",
+      "img": "http://sovetclub.ru/tim/1f2befa7f530cf4138f546a172bac2c2.jpg",
+      "desc": "О кредитовании сельскохозяйственных товаропроизводителей по льготной ставке",
+      "article": "app/components/news/news19-01-2017.html"
+    },
+    {
+      "id": "109",
+      "time": "18.01.2017",
+      "img": "http://www.resbash.ru/foto_news/2016/10/27349.jpg",
+      "desc": "Минэкономразвития направило в Правительство проект распоряжения о распределении субсидий субъектам РФ на поддержку МСП",
+      "article": "app/components/news/news18-01-2017.html"
+    },
+    {
       "id": "108",
       "time": "11.01.2017",
       "img": "http://finkontrol.com/wp-content/uploads/2014/10/vytyag-vypyska.jpg",
