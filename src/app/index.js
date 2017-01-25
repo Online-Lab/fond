@@ -32,6 +32,7 @@ angular.module('fond', ['ngAnimate',
   'fond.limits-guarantees',
   'fond.fns',
   'fond.case',
+  'fond.documents',
   'components'
 ])
 
@@ -178,6 +179,16 @@ angular.module('fond', ['ngAnimate',
         ncyBreadcrumb: {
           parent: 'home',
           label: 'ФНС'
+        },
+        controller: 'fnsCtrl'
+      })
+
+      .state('documents', {
+        url: '/documents',
+        templateUrl: 'app/documents/documents.html',
+        ncyBreadcrumb: {
+          parent: 'home',
+          label: 'Учредительные докименты фонда'
         },
         controller: 'fnsCtrl'
       })
