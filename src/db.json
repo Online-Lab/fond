@@ -110,6 +110,13 @@
 
   "news": [
     {
+      "id": "111",
+      "time": "01.02.2017",
+      "img": "http://inpress.ua/uploads/news/2013/10/18/27576ebb2e1b9a7d81835f2cb5c0e7faff7c4b53.jpg",
+      "desc": "Тамбовская область получит на господдержку малого бизнеса более 70 миллионов рублей",
+      "article": "app/components/news/news01-02-2017.html"
+    },
+    {
       "id": "110",
       "time": "19.01.2017",
       "img": "http://sovetclub.ru/tim/1f2befa7f530cf4138f546a172bac2c2.jpg",
