@@ -110,6 +110,13 @@
 
   "news": [
     {
+      "id": "112",
+      "time": "01.02.2017",
+      "img": "http://www.ansar.ru/uploads/imagesb/2012/08/ef621717.jpg",
+      "desc": "Реализация инвестиционного проекта ОАО «Птицефабрика «Иловайская»",
+      "article": "app/components/news/news01-02-2017-1.html"
+    },
+    {
       "id": "111",
       "time": "01.02.2017",
       "img": "http://inpress.ua/uploads/news/2013/10/18/27576ebb2e1b9a7d81835f2cb5c0e7faff7c4b53.jpg",
