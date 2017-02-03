@@ -110,6 +110,13 @@
 
   "news": [
     {
+      "id": "113",
+      "time": "03.02.2017",
+      "img": "http://inosmi.ru/images/23504/16/235041695.jpg",
+      "desc": "Банк России принял решение сохранить ключевую ставку на уровне 10,00% годовых",
+      "article": "app/components/news/news03-02-2017.html"
+    },
+    {
       "id": "112",
       "time": "01.02.2017",
       "img": "http://www.ansar.ru/uploads/imagesb/2012/08/ef621717.jpg",
