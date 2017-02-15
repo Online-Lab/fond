@@ -110,6 +110,13 @@
 
   "news": [
     {
+      "id": "116",
+      "time": "14.02.2017",
+      "img": "http://tretyrim.ru/upload/iblock/fab/fab6e6a3da681058c03b328cc387a5ff.jpg",
+      "desc": "Объявлен  конкурс в связи с размещением средств Фонда 14.02.2017 г.",
+      "article": "app/components/news/news14-02-2017-2.html"
+    },
+    {
       "id": "115",
       "time": "14.02.2017",
       "img": "https://1tulatv.ru/sites/default/files/1516_1.jpg",
