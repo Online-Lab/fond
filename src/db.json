@@ -110,11 +110,32 @@
 
   "news": [
     {
-      "id": "116",
+      "id": "119",
       "time": "14.02.2017",
       "img": "http://tretyrim.ru/upload/iblock/fab/fab6e6a3da681058c03b328cc387a5ff.jpg",
       "desc": "Объявлен  конкурс в связи с размещением средств Фонда 14.02.2017 г.",
       "article": "app/components/news/news14-02-2017-2.html"
+    },
+     {
+      "id": "118",
+      "time": "14.02.2017",
+      "img": "http://justmedia.ru/upload/news/56fa49dd68f8d444569870_600_400.jpg",
+      "desc": "ЦБ смягчит требования к банкам — кредиторам МСБ",
+      "article": "app/components/news/news14-02-2017-5.html"
+    },
+    {
+      "id": "117",
+      "time": "14.02.2017",
+      "img": "http://d-kb.ru/uploads/images/2015/05/29/1/1-2015-05-29-U77dC5u8lI.jpg",
+      "desc": "Поскромнее и подлиннее",
+      "article": "app/components/news/news14-02-2017-4.html"
+    },
+    {
+      "id": "116",
+      "time": "14.02.2017",
+      "img": "http://contents.i.sdska.ru/_i/news/c/74/temp/finansi/2013/nk/11_big_logo.jpg",
+      "desc": "«Финансовая Корпорация Открытие», являющаяся партнёром Фонда, будет кредитовать аграриев по льготной ставке",
+      "article": "app/components/news/news14-02-2017-3.html"
     },
     {
       "id": "115",
