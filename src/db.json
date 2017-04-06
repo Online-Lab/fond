@@ -1,10 +1,9 @@
 {
-  "banks":[
+  "banks": [
     {
       "img": "sber.png",
       "link": "http://www.sberbank.ru/ru/person",
       "name": "Сбербанк"
-
     },
     {
       "img": "rosselhoz.png",
@@ -107,8 +106,14 @@
       "name": "Фора-банк"
     }
   ],
-
   "news": [
+    {
+      "id": "120",
+      "time": "24.03.2017",
+      "img": "assets/images/news/4c50cbca515aeb8328f842103168cbfb.png",
+      "desc": "Подведены итоги конкурсного отбора кредитных организаций",
+      "article": "app/components/news/news24-03-2017.html"
+    },
     {
       "id": "119",
       "time": "14.02.2017",
@@ -116,7 +121,7 @@
       "desc": "Объявлен  конкурс в связи с размещением средств Фонда 14.02.2017 г.",
       "article": "app/components/news/news14-02-2017-2.html"
     },
-     {
+    {
       "id": "118",
       "time": "14.02.2017",
       "img": "http://justmedia.ru/upload/news/56fa49dd68f8d444569870_600_400.jpg",
@@ -249,21 +254,21 @@
       "desc": "Регионы РФ с 2017 года будут получать единую субсидию на развитие МСП",
       "article": "app/components/news/news25-11-2016-2.html"
     },
-     {
+    {
       "id": "99",
       "time": "25.11.2016",
       "img": "https://btc-obmenka.com/wp-content/uploads/Forex4you-popolnenie-scheta-cherez-Promsvyazbank.jpg",
       "desc": "Промсвязьбанк снизил ставки по кредитам до 8,3% для средних компаний и до 9,4% для малого бизнеса.",
       "article": "app/components/news/news25-11-2016.html"
     },
-     {
+    {
       "id": "98",
       "time": "24.11.2016",
       "img": "https://msb.khabkrai.ru/media/news/%D0%A4%D0%BE%D1%82%D0%BE_%D0%BA_%D0%9A%D0%BE%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B8_%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA.jpg",
       "desc": "VI  Всероссийская конференция «Развитие системы инфраструктуры поддержки субъектов малого и среднего предпринимательства»",
       "article": "app/components/news/news24-11-2016-2.html"
     },
-     {
+    {
       "id": "97",
       "time": "24.11.2016",
       "img": "http://www.ntm.ru/catalog_img/1300710793.jpg",
@@ -277,7 +282,7 @@
       "desc": "Средний бизнес прирастет крупным.",
       "article": "app/components/news/news22-11-2016.html"
     },
-     {
+    {
       "id": "95",
       "time": "21.11.2016",
       "img": "http://government.ru/media/photos/656x369/NhGQlCUHneU98htn1sppoU3k8Ai8rcmA.jpg",
@@ -291,7 +296,7 @@
       "desc": "ВТБ 24 снизил до 9% ставку по кредитам для малого бизнеса в рамках «Программы 6,5»  Корпорации МСП.",
       "article": "app/components/news/news21-11-2016.html"
     },
-     {
+    {
       "id": "93",
       "time": "18.11.2016",
       "img": "/assets/images/news/01news18-11-2016.jpg",
@@ -311,7 +316,7 @@
       "img": "http://smp-partner.ru/images/tops.png",
       "desc": "VII  Международный Форум молодых предпринимателей в Ярославской области.",
       "article": "app/components/news/news10-11-2016.html"
-    },  
+    },
     {
       "id": "90",
       "time": "08.11.2016",
@@ -333,28 +338,28 @@
       "desc": "Подведены итоги внепланового конкурсного отбора банков на право размещения средств Тамбовского областного ГУП &#34;Фонд содействия кредитованию малого и среднего предпринимательства Тамбовской области&#34;",
       "article": "app/components/news/news26-10-2016.html"
     },
-     {
+    {
       "id": "87",
       "time": "24.10.2016",
       "img": "/assets/images/banner2.jpg",
       "desc": "Объявлен внеплановый конкурсный отбор Банков на право размещении средств ТОГУП &#34;Фонд содействия кредитованию малого и среднего предпринимательства Тамбовской области&#34; во вкладах (депозитах).",
       "article": "app/components/news/news24-10-2016.html"
     },
-     {
+    {
       "id": "86",
       "time": "12.10.2016",
       "img": "http://select.by/images/banks/vtb-bank.by.gif",
       "desc": "Банк-партнёр Фонда – Банк ВТБ запускает акцию по рефинансированию кредитов для малого бизнеса &#34;Умный Малый&#34;.",
       "article": "app/components/news/news12-10-2016.html"
     },
-     {
+    {
       "id": "85",
       "time": "07.10.2016",
       "img": "/assets/images/news/01news07-10-2016.jpg",
       "desc": "RAEX подтвердил рейтинг надежности Гарантийного фонда Тамбовской области",
       "article": "app/components/news/news07-10-2016.html"
     },
-     {
+    {
       "id": "84",
       "time": "05.10.2016",
       "img": "/assets/images/news/01news05-10-2016.jpg",
@@ -368,14 +373,14 @@
       "desc": "Расширяется спектр финансовых организаций – партнёров Тамбовского областного ГУП «Фонд содействия кредитованию малого и среднего предпринимательства Тамбовской области».",
       "article": "app/components/news/news04-10-2016.html"
     },
-      {
+    {
       "id": "82",
       "time": "30.09.2016",
       "img": "/assets/images/news/01news30-09-2016.jpg",
       "desc": "ЦБ утвердил перечень системно значимых банков",
       "article": "app/components/news/news30-09-2016.html"
     },
-      {
+    {
       "id": "81",
       "time": "20.09.2016",
       "img": "/assets/images/news/02news20-09-2016.jpg",
@@ -389,35 +394,34 @@
       "desc": "Банк России принял решение снизить ключевую ставку до 10,00% годовых.",
       "article": "app/components/news/news16-09-2016.html"
     },
-     {
+    {
       "id": "79",
       "time": "12.09.2016",
       "img": "/assets/images/news/01news12-09-2016.jpg",
       "desc": "С 8 по 10 сентября в Мичуринске прошла XI Всероссийская выставка «День садовода-2016»",
       "article": "app/components/news/news12-09-2016.html"
     },
-     {
+    {
       "id": "78",
       "time": "09.09.2016",
       "img": "/assets/images/news/01news09-09-2016.jpg",
       "desc": "Круглый стол с представителями МСП Тамбовского района",
       "article": "app/components/news/news09-09-2016.html"
     },
-      {
+    {
       "id": "77",
       "time": "06.09.2016",
       "img": "/assets/images/news/01news06-09-2016.jpg",
       "desc": "В Тамбове состоялось Первое заседание обновленного координационного совета по инвестиционному климату и развитию малого и среднего предпринимательства.",
       "article": "app/components/news/news06-09-2016.html"
     },
-        {
+    {
       "id": "76",
       "time": "02.09.2016",
       "img": "/assets/images/news/01news02-09-2016.jpg",
       "desc": "Жердевские предприниматели приняли участие в обсуждении механизмов государственной поддержки.",
       "article": "app/components/news/news02-09-2016.html"
     },
-
     {
       "id": "75",
       "time": "31.08.2016",
@@ -474,7 +478,7 @@
       "desc": "Круглый стол с предпринимателями Сампурского района.",
       "article": "app/components/news/news24-08-2016.html"
     },
-     {
+    {
       "id": "67",
       "time": "22.08.2016",
       "img": "http://www.auditdv.ru/userfiles/phg55ba0d540c224.jpg",
@@ -515,42 +519,42 @@
       "img": "http://fruitnews.ru/images/2016/03/mich-ilinskaya.jpg",
       "desc": "Предприниматели города Мичуринска обсудили механизмы государственной поддержки с директором Фонда содействия кредитованию малого и среднего предпринимательства Блудовым Андреем Михайловичем.",
       "article": "app/components/news/news12-08-2016.html"
-    }, 
+    },
     {
       "id": "61",
       "time": "11.08.2016",
       "img": "/assets/images/news/01news11-08-2016.jpg",
       "desc": "Круглый стол по теме: «Механизмы государственной поддержки субъектов малого и среднего предпринимательства»",
       "article": "app/components/news/news11-08-2016.html"
-    }, 
+    },
     {
       "id": "60",
       "time": "10.08.2016",
       "img": "/assets/images/news/01news10-08-2016.jpg",
       "desc": "В администрации Мучкапского района совместно с местными предпринимателями состоялось совещание на тему: Механизмы государственной поддержки субъектов малого и среднего предпринимательства и условия её предоставления",
       "article": "app/components/news/news10-08-2016.html"
-    }, 
+    },
     {
       "id": "59",
       "time": "09.08.2016",
       "img": "/assets/images/news/01news09-08-2016.jpg",
       "desc": "Знаменским предпринимателям рассказали о мерах поддержки.",
       "article": "app/components/news/news09-08-2016.html"
-    }, 
+    },
     {
       "id": "58",
       "time": "05.08.2016",
       "img": "http://coachguru.ru/wp-content/uploads/2014/06/stol.jpg",
       "desc": "Фонд существует для того чтобы работал бизнес и достигалась главная цель",
       "article": "app/components/news/news05-08-2016.html"
-    }, 
+    },
     {
       "id": "57",
       "time": "29.07.2016",
       "img": "http://img.profi-news.ru/2016/07/29/296914.jpg",
       "desc": "Банк России сохранил ключевую ставку на уровне 10,5% годовых",
       "article": "app/components/news/news29-07-2016.html"
-    }, 
+    },
     {
       "id": "56",
       "time": "21.07.2016",
@@ -643,301 +647,301 @@
       "article": "app/components/news/news07-04-2016.html"
     },
     {
-      "id":"43",
+      "id": "43",
       "time": "01.04.2016",
       "img": "http://cdnimg.rg.ru/img/content/121/00/04/mfc600_600x400_t_310x206.jpg",
       "desc": "Об изменениях в порядке представления уведомлений о начале осуществления отдельных видов предпринимательской деятельности.",
       "article": "app/components/news/news01-04-2016.html"
     },
     {
-      "id":"42",
+      "id": "42",
       "time": "31.03.2016",
       "img": "http://academy21.ru/uploads/posts/2016-03/1459163621_image108176145.jpg",
       "desc": "Подведены итоги конкурса по отбору кредитных организаций на размещение средств Фонда в депозиты.",
       "article": "app/components/news/news31-03-2016.html"
     },
     {
-      "id":"41",
+      "id": "41",
       "time": "18.03.2016",
       "img": "http://volbusiness.ru/assets/images/news/22.03.2016/business_101013.jpg",
       "desc": "О мерах по расширению участия субъектов малого и среднего предпринимательства в государственных закупках",
       "article": "app/components/news/news18-03-2016-1.html"
     },
     {
-      "id":"40",
+      "id": "40",
       "time": "18.03.2016",
       "img": "http://iltumen.ru/sites/default/files/imagecache/w400/img_news/1_488.jpg",
       "desc": "Банк России сохранил ключевую ставку на уровне 11,00% годовых",
       "article": "app/components/news/news18-03-2016.html"
     },
     {
-      "id":"39",
+      "id": "39",
       "time": "10.03.2016",
       "img": "http://creative.allmedia.ru/arc/300x225/photo_60582_%7B4274D4EA-8B7B-43BF-A973-6544B6EB2B1C%7D.jpg",
       "desc": "О распределении субсидий субъектам Федерации на софинансирование капитальных вложений в объекты госсобственности, предназначенные для развития малого и среднего предпринимательства",
       "article": "app/components/news/news10-03-2016-1.html"
     },
     {
-      "id":"38",
+      "id": "38",
       "time": "10.03.2016",
       "img": "http://mynewsonline24.ru/uploads/posts/2016-03/1457589612_rukovodstvo-raspredelilo-subsi.jpg",
       "desc": "О распределении субсидий субъектам Федерации на государственную поддержку малого и среднего предпринимательства",
       "article": "app/components/news/news10-03-2016.html"
     },
     {
-      "id":"37",
+      "id": "37",
       "time": "12.02.2016",
       "img": "http://bfmufa.ru/files/2013/10/startup_221013.jpg",
       "desc": "Брифинг на тему поддержки малого и среднего бизнеса",
       "article": "app/components/news/news12-02-2016.html"
     },
     {
-      "id":"36",
+      "id": "36",
       "time": "08.02.2016",
       "img": "https://s3.eu-central-1.amazonaws.com/fsc-tambov/images/08.02.2016.jpg",
       "desc": "Государственная поддержка модернизации аграрного производства и устойчивого развития сельских территорий",
       "article": "app/components/news/news08-02-2016.html"
     },
     {
-      "id":"35",
+      "id": "35",
       "time": "04.02.2016",
       "img": "http://creative.allmedia.ru/arc/300x225/photo_61122_%7BE05B3648-3A33-41FA-850E-1487A1BDC9F3%7D.jpg",
       "desc": "Минэкономразвития внесло в Правительство доработанный проект стратегии развития МСП до 2030 года",
       "article": "app/components/news/news04-02-2016.html"
     },
     {
-      "id":"34",
+      "id": "34",
       "time": "03.02.2016",
       "img": "https://s3.eu-central-1.amazonaws.com/fsc-tambov/images/03.02.2016.jpg",
       "desc": "Олег Фомичев: Малый бизнес сумел выстоять в кризисное время",
       "article": "app/components/news/news03-02-2016.html"
     },
     {
-      "id":"33",
+      "id": "33",
       "time": "03.02.2016",
       "img": "http://www.acgrf.ru/upload/resize_cache/iblock/f60/300_230_1/%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80.jpg",
       "desc": "Корпорация МСП приступает к проведению исследований спроса и потребления товаров и услуг в регионах в рамках создания Маркетингового навигатора МСП",
       "article": "app/components/news/news03-02-2016-0.html"
     },
     {
-      "id":"32",
+      "id": "32",
       "time": "02.02.2016",
       "img": "http://www.acgrf.ru/upload/resize_cache/iblock/7ce/300_230_1/786546574.jpg",
       "desc": "Корпорация МСП активно ведет работу по заключению соглашений о взаимодействии с региональными многофункциональными центрами",
       "article": "app/components/news/news02-02-2016.html"
     },
     {
-      "id":"31",
+      "id": "31",
       "time": "28.01.2016",
       "img": "https://visioningsystems.files.wordpress.com/2014/11/learning_consultants.jpg",
       "desc": "Антикризисный план предполагает поддержку малого и среднего бизнеса, а не банков",
       "article": "app/components/news/news28-01-2016.html"
     },
     {
-      "id":"30",
+      "id": "30",
       "time": "27.01.2016",
       "img": "https://s3.eu-central-1.amazonaws.com/fsc-tambov/images/27.01.16.jpg",
       "desc": "Малый бизнес – Национальная идея?",
       "article": "app/components/news/news27-01-2016.html"
     },
     {
-      "id":"29",
+      "id": "29",
       "time": "22.01.2016",
       "img": "http://creative.allmedia.ru/arc/300x225/photo_60419_%7BE33C6718-427F-48E5-8820-1B90D9ACAAA2%7D.jpg",
       "desc": "Внесены изменения в условия конкурсного отбора субъектов РФ на субсидирование МСП",
       "article": "app/components/news/news22-01-2016.html"
     },
     {
-      "id":"28",
+      "id": "28",
       "time": "20.01.2016",
       "img": "http://polit.ru/media/photolib/2015/01/26/thumbs/1eb0a0c2d3ed2aab2b5e6dd1d0582073_1453206562.jpg.600x450_q85.jpg",
       "desc": "Олег Фомичев: Работа над Стратегией МСП перешла в новую фазу",
       "article": "app/components/news/news20-01-2016.html"
     },
     {
-      "id":"27",
+      "id": "27",
       "time": "30.12.2015",
       "img": "http://www.eastrussia.ru/upload/resize_cache/iblock/347/763_428_2/%D1%80%D0%BE%D1%81%D1%81%D1%82%D0%B0%D1%822.jpg",
       "desc": "Минэкономразвития проведет масштабную бизнес-перепись",
       "article": "app/components/news/news30-12-2015.html"
     },
     {
-      "id":"26",
+      "id": "26",
       "time": "29.12.2015",
       "img": "http://garantfond92.ru/wp-content/uploads/2015/10/temp.jpg",
       "desc": "Подведены итоги конкурса по отбору кредитных организаций на размещение средств Фонда в депозиты.",
       "article": "app/components/news/news29-12-2015.html"
     },
     {
-      "id":"25",
+      "id": "25",
       "time": "28.12.2014",
       "img": "http://regnum.ru/uploads/pictures/news/2015/12/28/regnum_picture_1451301383430821_big.jpg",
       "desc": "Уставной капитал Корпорации МСП будет увеличен на 30 млрд. рублей",
       "article": "app/components/news/news28-12-2015.html"
     },
     {
-      "id":"24",
+      "id": "24",
       "time": "24.12.2015",
       "img": "http://cdn11.img22.ria.ru/images/99706/75/997067597.jpg",
       "desc": "Госдума приняла закон о создании реестра субъектов МСП",
       "article": "app/components/news/news24-12-2015.html"
     },
     {
-      "id":"23",
+      "id": "23",
       "time": "23.12.2015",
       "img": "http://www.решение-верное.рф/sites/default/files/minec.jpg",
       "desc": "В 2016 году малому и среднему бизнесу планируется предоставить субсидий на 10,2 млрд. рублей",
       "article": "app/components/news/news23-12-2015.html"
     },
     {
-      "id":"22",
+      "id": "22",
       "time": "14.12.2015",
       "img": "http://www.b-port.com/mediafiles/items/2015/12/167343/56ca663a3b8e5811618e71ec4fb1eb8f_XL.jpg",
       "desc": "Банк России сохранил ключевую ставку на уровне 11,00% годовых",
       "article": "app/components/news/news14-12-2015.html"
     },
     {
-      "id":"21",
+      "id": "21",
       "time": "10.12.2015",
       "img": "http://www.garant.ru/files/9/7/675679/pravitelstvo-rf-reshilo-s-1-yanvarya-2016-goda-vmesto-stavki-refinansirovaniya-primenyat-klyuchevuyu-stavku-200.jpg",
       "desc": "О применении с 1 января 2016 года ключевой ставки Банка России",
       "article": "app/components/news/news10-12-2015.html"
     },
     {
-      "id":"20",
+      "id": "20",
       "time": "24.11.2015",
       "img": "http://www.vmo39.spb.ru/_files/mfc_logo.png",
       "desc": "АО «Федеральная корпорация по развитию МСП» сможет предоставлять услуги через МФЦ",
       "article": "app/components/news/news24-11-2015.html"
     },
     {
-      "id":"19",
+      "id": "19",
       "time": "12.11.2015",
       "img": "http://www.tvsme.ru/img/slides/01.jpg",
       "desc": "Об утверждении перечня конкретных заказчиков, чьи проекты планов закупки подлежат оценке соответствия требованиям законодательства об участии субъектов малого и среднего предпринимательства в закупке",
       "article": "app/components/news/news12-11-2015.html"
     },
     {
-      "id":"18",
+      "id": "18",
       "time": "11.11.2015",
       "img": "http://www.toool.ru/optovaya_prodaja/gorod_instrumenta_optom.jpg",
       "desc": "О мерах по расширению доступа субъектов малого и среднего предпринимательства к закупкам компаний с государственным участием",
       "article": "app/components/news/news11-11-2015.html"
     },
     {
-      "id":"17",
+      "id": "17",
       "time": "29.10.2015",
       "img": "../../assets/images/banner_news_1011.jpg",
       "desc": "Подведены итоги конкурса по отбору кредитных организаций на размещение средств Фонда в депозиты.",
       "article": "app/components/news/news10-11-2015.html"
     },
     {
-      "id":"16",
+      "id": "16",
       "time": "12.10.2015",
       "img": "../../assets/images/news/12.10.2015.png",
       "desc": "Подтвержден рейтинг Гарантийного фонда Тамбовской обл. на уровне А+",
       "article": "app/components/news/news12-10-2015.html"
     },
     {
-      "id":"15",
+      "id": "15",
       "time": "04.09.2015",
       "img": "../../assets/images/news/04.09.2015-1.jpg",
       "desc": "В Мичуринске прошел День садовода!",
       "article": "app/components/news/news04-09-2015.html"
     },
     {
-      "id":"14",
+      "id": "14",
       "time": "03.09.2015",
       "img": "../../assets/images/news/03.09.2015-1.jpg",
       "desc": "Проблемы привлечения инвестиций и кредитование",
       "article": "app/components/news/news03-09-2015.html"
     },
     {
-      "id":"13",
+      "id": "13",
       "time": "24.08.2015",
       "img": "../../assets/images/news/24.08.2015-1.jpg",
       "desc": "Технологии успеха – молодежи!",
       "article": "app/components/news/news24-08-2015.html"
     },
     {
-      "id":"12",
+      "id": "12",
       "time": "30.07.2015",
       "img": "../../assets/images/news/30.07.15-1.jpg",
       "desc": "О предельных значениях выручки субъектов малого и среднего предпринимательства от реализации товаров (работ, услуг)",
       "article": "app/components/news/news30-07-2015-1.html"
     },
     {
-      "id":"11",
+      "id": "11",
       "time": "30.07.2015",
       "img": "../../assets/images/news/30.07.15-2.jpg",
       "desc": "О распределении в 2015 году субсидий субъектам Федерации на государственную поддержку малого и среднего предпринимательства ",
       "article": "app/components/news/news30-07-2015-2.html"
     },
     {
-      "id":"10",
+      "id": "10",
       "time": "28.07.2015",
       "img": "../../assets/images/news/28.07.2015-2.jpg",
       "desc": "Подведены итоги конкурса по отбору кредитных организаций на размещение средств Фонда в депозиты.",
       "article": "app/components/news/news28-07-2015-2.html"
     },
     {
-      "id":"9",
+      "id": "9",
       "time": "28.07.2015",
       "img": "../../assets/images/news9.jpg",
       "desc": "Подведены итоги конкурса по отбору кредитных организаций.",
       "article": "app/components/news/news28-07-2015.html"
     },
     {
-      "id":"8",
+      "id": "8",
       "time": "15.07.2015 13:05",
       "img": "http://fsc-tambov.online-lab.ru/images/doc/novosti/apk.jpeg",
       "desc": "В 2015 году максимальный объём гарантийной поддержки Агентством кредитных гарантий в сфере АПК был оказан субъектам МСП  Тамбовской области",
       "article": "app/components/news/news15-07-2015.html"
     },
     {
-      "id":"7",
+      "id": "7",
       "time": "06.07.2015 14:09",
       "img": "http://fsc-tambov.online-lab.ru/images/doc/novosti/brifing.jpeg",
       "desc": "Информация о деятельности Фонда в 1-м полугодии 2015 г.",
       "article": "app/components/news/news06-07-2015.html"
     },
     {
-      "id":"6",
+      "id": "6",
       "time": "03.07.2015 11:47",
       "img": "../../assets/images/news.jpg",
       "desc": "Итоги работы Фонда содействия кредитованию малого и среднего предпринимательства Тамбовской области в первом полугодии 2015 года",
       "article": "app/components/news/news03-07-2015.html"
     },
     {
-      "id":"5",
+      "id": "5",
       "time": "17.06.2015 12:23",
       "img": "../../assets/images/news.jpg",
       "desc": "Объявлен очередной конкурс в связи с размещением средств Фонда 17.06.2015 г",
       "article": "app/components/news/news17-06-2015.html"
     },
     {
-      "id":"4",
+      "id": "4",
       "time": "25.05.2015 14:04",
       "img": "../../assets/images/news.jpg",
       "desc": "Подведены итоги  конкурса по отбору кредитных организаций 25.05.2015",
       "article": "app/components/news/news25-05-2015.html"
     },
     {
-      "id":"3",
+      "id": "3",
       "time": "24.04.2015 10:00 ",
       "img": "../../assets/images/news.jpg",
       "desc": "Объявлен очередной конкурс в связи с размещением средств Фонда 24.04.2015",
       "article": "app/components/news/news24-04-2015.html"
     },
     {
-      "id":"2",
+      "id": "2",
       "time": "26.03.2015 17:00",
       "img": "../../assets/images/news.jpg",
       "desc": "Подведены итоги конкурса по размещению средств Фонда (26.03.2015)",
       "article": "app/components/news/news26-03-2015.html"
     },
     {
-      "id":"1",
+      "id": "1",
       "time": "13.02.2015 12:17",
       "img": "../../assets/images/news.jpg",
       "desc": "Объявлен очередной конкурс в связи с размещением средств Фонда (13.02.2015)",
