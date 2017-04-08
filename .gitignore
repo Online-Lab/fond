@@ -1,4 +1,4 @@
-.idea
+.idea/
 node_modules/
 bower_components/
 .sass-cache/
@@ -7,3 +7,5 @@ dist/
 layouts/
 .DS_Store
 *.swp
+
+.idea/workspace.xml
