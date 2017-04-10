@@ -108,6 +108,41 @@
   ],
   "news": [
     {
+      "id": "125",
+      "time": "03.04.2017",
+      "img": "assets/images/news/ris2.jpg",
+      "desc": "В рамках семинара были рассмотрены новые условия взаимодействия Фонда с Банками-партнёрами.",
+      "article": "app/components/news/news03-04-2017.html"
+    },
+    {
+      "id": "124",
+      "time": "09.03.2017",
+      "img": "assets/images/news/09.03.2017.jpg",
+      "desc": "Глава администрации области Александр Валерьевич Никитин провел расширенное совещание с главами муниципалитетов",
+      "article": "app/components/news/news09-03-2017.html"
+    },
+    {
+      "id": "123",
+      "time": "06.03.2017",
+      "img": "assets/images/news/izmeneniya-v-mer-rf.jpg",
+      "desc": "Минэкономразвития РФ внесет в правительство законопроект о социальном предпринимательстве до конца марта.",
+      "article": "app/components/news/news06-03-20171.html"
+    },
+    {
+      "id": "122",
+      "time": "06.03.2017",
+      "img": "assets/images/news/055a65de35302efd7dfd8c3cd64e1127.jpg",
+      "desc": "Первый вице-премьер РФ Игорь Шувалов заявил о том, что «Программа 6,5» будет продолжена.",
+      "article": "app/components/news/news06-03-2017.html"
+    },
+    {
+      "id": "121",
+      "time": "03.03.2017",
+      "img": "assets/images/news/aad735260601 (1).jpg",
+      "desc": "3 марта состоялся круглый стол «Аккредитация при Корпорации МСП банков-партнеров.",
+      "article": "app/components/news/news03-03-2017.html"
+    },
+    {
       "id": "120",
       "time": "24.03.2017",
       "img": "assets/images/news/4c50cbca515aeb8328f842103168cbfb.png",
