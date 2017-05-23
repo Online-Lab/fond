@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7a043ca-b6f5-4a08-9084-a6c904d0643b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/header/header.html" afterPath="$PROJECT_DIR$/src/app/components/header/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/home/home.styl" afterPath="$PROJECT_DIR$/src/app/home/home.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/projects/byRegion/dis23.html" afterPath="$PROJECT_DIR$/src/app/projects/byRegion/dis23.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/projects/byRegion/dis27.html" afterPath="$PROJECT_DIR$/src/app/projects/byRegion/dis27.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/projects/byRegion/dis29.html" afterPath="$PROJECT_DIR$/src/app/projects/byRegion/dis29.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/projects/byRegion/dis5.html" afterPath="$PROJECT_DIR$/src/app/projects/byRegion/dis5.html" />
-    </list>
+    <list default="true" id="f7a043ca-b6f5-4a08-9084-a6c904d0643b" name="Default" comment="" />
     <ignored path="fond.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,8 +63,8 @@
       <file leaf-file-name="dis5.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/projects/byRegion/dis5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="184" column="28" lean-forward="true" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
+            <state relative-caret-position="82">
+              <caret line="167" column="9" lean-forward="true" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -456,7 +448,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="J:/sites/color/lastColor/lastColor/last/last" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="J:\Program Files\nodejs\node.exe" />
@@ -583,12 +575,12 @@
       <workItem from="1494487921043" duration="2285000" />
       <workItem from="1494540480198" duration="85000" />
       <workItem from="1494590722363" duration="742000" />
-      <workItem from="1495019246870" duration="1810000" />
+      <workItem from="1495019246870" duration="2457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47856000" />
+    <option name="totallyTimeSpent" value="48503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1176" extended-state="6" />
@@ -1001,8 +993,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/projects/byRegion/dis5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="184" column="28" lean-forward="true" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
+        <state relative-caret-position="82">
+          <caret line="167" column="9" lean-forward="true" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
           <folding />
         </state>
       </provider>
