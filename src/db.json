@@ -108,6 +108,20 @@
   ],
   "news": [
     {
+      "id": "157",
+      "time": "29.05.2017",
+      "img": "assets/images/webinar.jpg",
+      "desc": "Банк России приглашает предпринимателей на бесплатные вебинары",
+      "article": "app/components/news/news29.05.2017.html"
+    },
+    {
+      "id": "156",
+      "time": "26.05.2017",
+      "img": "assets/images/pro1.jpg",
+      "desc": "Создано отделение кафедры Тамбовского Государственного Технического Университета «Гражданское право и процесс».",
+      "article": "app/components/news/news26-05-2017.html"
+    },
+    {
       "id": "155",
       "time": "19.05.2017",
       "img": "assets/images/kart1.jpg",
