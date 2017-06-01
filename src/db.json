@@ -108,11 +108,18 @@
   ],
   "news": [
     {
-      "id": "159",
+      "id": "160",
       "time": "29.05.2017",
       "img": "assets/images/webinar.jpg",
       "desc": "Банк России приглашает предпринимателей на бесплатные вебинары",
       "article": "app/components/news/news29.05.2017.html"
+    },
+    {
+      "id": "159",
+      "time": "26.05.2017",
+      "img": "assets/images/4033.jpg",
+      "desc": "Поздравляем Вас с Днем предпринимателя!",
+      "article": "app/components/news/news26-05-20171.html"
     },
     {
       "id": "158",
