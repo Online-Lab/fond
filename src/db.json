@@ -108,6 +108,13 @@
   ],
   "news": [
     {
+      "id": "161",
+      "time": "31.05.2017",
+      "img": "assets/images/raex.jpg",
+      "desc": "RAEX подтвердил рейтинг надежности Гарантийного фонда Тамбовской области",
+      "article": "app/components/news/news31.05.2017.html"
+    },
+    {
       "id": "160",
       "time": "29.05.2017",
       "img": "assets/images/webinar.jpg",
