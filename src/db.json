@@ -109,6 +109,13 @@
   ],
   "news": [
     {
+      "id": "162",
+      "time": "02.06.2017",
+      "img": "assets/images/rating.jpg",
+      "desc": "Тамбовская область укрепила свои позиции в Национальном рейтинге состояния инвестиционного климата в регионах РФ",
+      "article": "app/components/news/news02.06.2017.html"
+    },
+    {
       "id": "161",
       "time": "31.05.2017",
       "img": "assets/images/raex.jpg",
