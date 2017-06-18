@@ -108,6 +108,13 @@
   ],
   "news": [
     {
+      "id": "163",
+      "time": "16.06.2017",
+      "img": "assets/images/c_rf_1.jpg",
+      "desc": "Банк России принял решение снизить ключевую ставку до 9,00% годовых",
+      "article": "app/components/news/news16.06.2017.html"
+    },
+    {
       "id": "162",
       "time": "02.06.2017",
       "img": "assets/images/rating.jpg",
