@@ -108,6 +108,13 @@
   ],
   "news": [
     {
+      "id": "164",
+      "time": "16.06.2017",
+      "img": "assets/images/new_forum.jpg",
+      "desc": "16-17 июня 2017 года в Курске прошёл VI Среднерусский экономический форум",
+      "article": "app/components/news/news16.06.20171.html"
+    },
+    {
       "id": "163",
       "time": "16.06.2017",
       "img": "assets/images/c_rf_1.jpg",
