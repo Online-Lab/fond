@@ -103,6 +103,13 @@
   ],
   "news": [
     {
+      "id": "165",
+      "time": "27.06.2017",
+      "img": "assets/images/chalenge.png",
+      "desc": "Подведены итоги конкурсного отбора",
+      "article": "app/components/news/news27.06.2017.html"
+    },
+    {
       "id": "164",
       "time": "16.06.2017",
       "img": "assets/images/new_forum.jpg",
